@@ -1,9 +1,9 @@
-import img1 from '../../images/ForAspirants/video-thumbnails/video1.jpg'
-import img2 from '../../images/ForAspirants/video-thumbnails/gate_exam_details.jpg' 
-import img3 from '../../images/ForAspirants/video-thumbnails/cat_exam_details.jpg' 
-import img4 from '../../images/ForAspirants/video-thumbnails/upsc_all_details.jpg' 
-import img5 from '../../images/ForAspirants/video-thumbnails/wbpsc_details.jpg' 
-import img6 from '../../images/ForAspirants/video-thumbnails/answers_writing.jpg' 
+import img1 from '../../images/ForAspirants/video-thumbnails/video1.webp'
+import img2 from '../../images/ForAspirants/video-thumbnails/gate_exam_details.webp' 
+import img3 from '../../images/ForAspirants/video-thumbnails/cat_exam_details.webp' 
+import img4 from '../../images/ForAspirants/video-thumbnails/upsc_all_details.webp' 
+import img5 from '../../images/ForAspirants/video-thumbnails/wbpsc_details.webp' 
+import img6 from '../../images/ForAspirants/video-thumbnails/answers_writing.webp' 
 
 const videos_data = [
 

@@ -1,15 +1,15 @@
-import img2 from '../images/events/Meme_Live.png';
-import img3 from '../images/events/Poster_Live.png';
-import img4 from '../images/events/Photography_Live.png';
-import img5 from '../images/events/TechEvent_Live.png';
-import img6 from '../images/events/Content_Live.png';
-import img7 from '../images/events/Video_Live.png';
-import img8 from '../images/events/hacksamarth23.jpg';
-import img9 from '../images/events/chronicles-23.jpg';
-import img10 from '../images/events/PHOTOGRAPHY-24.jpg';
-import img11 from '../images/events/TOS-24.jpeg';
-import img12 from '../images/events/demystifying_seminar.png';
-import img13 from '../images/events/personal_interview.jpeg';
+import img2 from '../images/events/Meme_Live.webp';
+import img3 from '../images/events/Poster_Live.webp';
+import img4 from '../images/events/Photography_Live.webp';
+import img5 from '../images/events/TechEvent_Live.webp';
+import img6 from '../images/events/Content_Live.webp';
+import img7 from '../images/events/Video_Live.webp';
+import img8 from '../images/events/hacksamarth23.webp';
+import img9 from '../images/events/chronicles-23.webp';
+import img10 from '../images/events/PHOTOGRAPHY-24.webp';
+import img11 from '../images/events/TOS-24.webp';
+import img12 from '../images/events/demystifying_seminar.webp';
+import img13 from '../images/events/personal_interview.webp';
 
 const dataOfPast = [
   {

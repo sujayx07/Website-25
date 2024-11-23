@@ -1,13 +1,13 @@
 
-import img1 from '../images/Team/Rituparna.jpg'
-import img2 from '../images/Team/Dalia.jpg'
-import img3 from '../images/Team/Bidhan.jpg'
-import img4 from '../images/Team/Santanu.jpg'
-import img5 from '../images/Team/Gourav.jpg'
-import img6 from '../images/Team/teacher1.jpg'
-import img7 from '../images/Team/teacher2.jpg'
-import img8 from '../images/Team/teacher5.png'
-import img9 from '../images/Team/teacher4.jpg'
+import img1 from '../images/Team/Rituparna.webp'
+import img2 from '../images/Team/Dalia.webp'
+import img3 from '../images/Team/Bidhan.webp'
+import img4 from '../images/Team/Santanu.webp'
+import img5 from '../images/Team/Gourav.webp'
+import img6 from '../images/Team/teacher1.webp'
+import img7 from '../images/Team/teacher2.webp'
+import img8 from '../images/Team/teacher5.webp'
+import img9 from '../images/Team/teacher4.webp'
 
 const dataTeam = [
 

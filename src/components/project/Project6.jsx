@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-import img from '../../assets/images/new/whitelogo.png';
+import img from '../../assets/images/new/whitelogo.webp';
 
 Project6.propTypes = {
   data: PropTypes.array,

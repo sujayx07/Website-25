@@ -1089,9 +1089,9 @@ a:hover, a:focus {
   --product-color23: rgba(255, 255, 255, 0.2);
   --product-color24: #040B11;
   --product-color25: #141B22;
-  --bg-section: url(../images/background/bs-section.jpg);
+  --bg-section: url(../images/background/bs-section.webp);
   --bg-section2: #040B11;
-  --bg-section3: url(../images/background/bs-section.jpg);
+  --bg-section3: url(../images/background/bs-section.webp);
 }
 
 #page {
@@ -1646,7 +1646,7 @@ header.absolute {
 .tf-page-title {
   padding: 77px 0;
   text-align: center;
-  background: url("../images/background/bg-page-title.jpg") center center no-repeat fixed;
+  background: url("../images/background/bg-page-title.webp") center center no-repeat fixed;
   background-size: cover;
 }
 .tf-page-title.style-2 {
@@ -1774,7 +1774,7 @@ header.absolute {
 /* Footer
 -------------------------------------------------------------- */
 .footer {
-  background: url("../images/background/bg-footer.jpg") center center no-repeat;
+  background: url("../images/background/bg-footer.webp") center center no-repeat;
   background-size: cover;
 }
 .footer .footer-inner {
@@ -2040,7 +2040,7 @@ header.absolute {
 /*Action Box -------------------------
 ------------------------------------------ */
 .action-box .action-box-inner {
-  background: url("../images/background/bg-action-box1.png"), linear-gradient(268.28deg, #2333DE -1.34%, #0ABE66 100%);
+  background: url("../images/background/bg-action-box1.webp"), linear-gradient(268.28deg, #2333DE -1.34%, #0ABE66 100%);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2112,7 +2112,7 @@ header.absolute {
   z-index: 100;
   margin: -200px 0 0 -200px;
   background: #ffffff;
-  background: url(../icon/preload.png) center center no-repeat;
+  background: url(../icon/preload.webp) center center no-repeat;
   animation: preload 1s linear infinite alternate;
   -webkit-animation-name: bounceIn;
   animation-name: bounceIn;

@@ -1,14 +1,14 @@
 import React from 'react';
 import './FlipBoxStyles.css'; 
-import pravidhiImage from '../assets/images/new/techlogo.png';
-import graphics from '../assets/images/new/kalkriti.png';
-import content from '../assets/images/new/content.jpg';
-import eductation from '../assets/images/new/eductation.png';
-import research from '../assets/images/new/Anveshan.jpg';
-import cultural from '../assets/images/new/SANGAM.png';
-import photo from '../assets/images/new/pratibimb.jpg';
-// import media from '../assets/images/new/Sampreshan.png';
-import blackbg from '../assets/images/new/purple.png';
+import pravidhiImage from '../assets/images/new/techlogo.webp';
+import graphics from '../assets/images/new/kalkriti.webp';
+import content from '../assets/images/new/content.webp';
+import eductation from '../assets/images/new/eductation.webp';
+import research from '../assets/images/new/Anveshan.webp';
+import cultural from '../assets/images/new/SANGAM.webp';
+import photo from '../assets/images/new/pratibimb.webp';
+// import media from '../assets/images/new/Sampreshan.webp';
+import blackbg from '../assets/images/new/purple.webp';
 
 
 
@@ -27,7 +27,7 @@ const FlipBoxContainer = () => {
             <div className="inner color-white">
               {/* <h3 className="flip-box-header">Graphics Wing</h3> */}
               {/* <p>A short sentence describing this callout is.</p> */}
-              {/* <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" className="flip-box-img" /> */}
+              {/* <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.webp" alt="" className="flip-box-img" /> */}
             </div>
           </div>
           <div
@@ -52,7 +52,7 @@ const FlipBoxContainer = () => {
             <div className="inner color-white">
               {/* <h3 className="flip-box-header">Technical Wing</h3> */}
                {/* <p>A short sentence describing this callout is.</p> */}
-              {/* <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" className="flip-box-img" /> */}
+              {/* <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.webp" alt="" className="flip-box-img" /> */}
             </div>
           </div>
           <div
@@ -79,7 +79,7 @@ const FlipBoxContainer = () => {
             <div className="inner color-white">
               {/* <h3 className="flip-box-header">Content Wing</h3> */}
               {/* <p>A short sentence describing this callout is.</p> */}
-              {/* <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" className="flip-box-img" /> */}
+              {/* <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.webp" alt="" className="flip-box-img" /> */}
             </div>
           </div>
           <div
@@ -107,7 +107,7 @@ const FlipBoxContainer = () => {
             <div className="inner color-white">
               {/* <h3 className="flip-box-header">Eductation Wing</h3> */}
               {/* <p>A short sentence describing this callout is.</p> */}
-              {/* <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" className="flip-box-img" /> */}
+              {/* <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.webp" alt="" className="flip-box-img" /> */}
             </div>
           </div>
           <div
@@ -135,7 +135,7 @@ const FlipBoxContainer = () => {
             <div className="inner color-white">
               {/* <h3 className="flip-box-header">Research Wing</h3> */}
               {/* <p>A short sentence describing this callout is.</p> */}
-              {/* <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" className="flip-box-img" /> */}
+              {/* <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.webp" alt="" className="flip-box-img" /> */}
             </div>
           </div>
           <div
@@ -164,7 +164,7 @@ const FlipBoxContainer = () => {
             <div className="inner color-white">
               {/* <h3 className="flip-box-header">Cultural Wing</h3> */}
               {/* <p>A short sentence describing this callout is.</p> */}
-              {/* <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" className="flip-box-img" /> */}
+              {/* <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.webp" alt="" className="flip-box-img" /> */}
             </div>
           </div>
           <div
@@ -192,7 +192,7 @@ const FlipBoxContainer = () => {
             <div className="inner color-white">
               {/* <h3 className="flip-box-header">Research Wing</h3> */}
               {/* <p>A short sentence describing this callout is.</p> */}
-              {/* <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" className="flip-box-img" /> */}
+              {/* <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.webp" alt="" className="flip-box-img" /> */}
             </div>
           </div>
           <div

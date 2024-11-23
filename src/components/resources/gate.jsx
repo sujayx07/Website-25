@@ -2,7 +2,7 @@ import React , {useState} from 'react';
 import PropTypes from 'prop-types';
 import Button from '../button/Button';
 
-import img from '../../assets/images/background/line.png'
+import img from '../../assets/images/background/line.webp'
 
 Gate.propTypes = {
     data: PropTypes.array

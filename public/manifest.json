@@ -3,7 +3,7 @@
     "name": "Samarth App",
     "icons": [
         {
-            "src": "/newlogo.png",
+            "src": "/newlogo.webp",
             "type": "image/png",
             "sizes": "1024x1024"
         }
