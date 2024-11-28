@@ -1,14 +1,14 @@
 
-import img2 from '../images/events/INNOVATE-A-THON.jpg';
-import img3 from '../images/events/MATRIX OF MOCK.jpg';
-import img4 from '../images/events/APTITUDE TEST.jpg';
-import img5 from '../images/events/INSTANT INK.jpg';
-import img6 from '../images/events/SHOT-A-VID.jpg';
-import img7 from '../images/events/SHERLOCKS ESCAPE.jpg';
-import img8 from '../images/events/Model united states.jpg';
-import img9 from '../images/events/BRAIN BLITZ.jpg';
-import img10 from '../images/events/DREAM DOTS.jpg';
-import img11 from '../images/events/War of conviction.jpg';
+import img2 from '../images/events/INNOVATE-A-THON.webp';
+import img3 from '../images/events/MATRIX OF MOCK.webp';
+import img4 from '../images/events/APTITUDE TEST.webp';
+import img5 from '../images/events/INSTANT INK.webp';
+import img6 from '../images/events/SHOT-A-VID.webp';
+import img7 from '../images/events/SHERLOCKS ESCAPE.webp';
+import img8 from '../images/events/Model united states.webp';
+import img9 from '../images/events/BRAIN BLITZ.webp';
+import img10 from '../images/events/DREAM DOTS.webp';
+import img11 from '../images/events/War of conviction.webp';
 
 
 const dataItem = [

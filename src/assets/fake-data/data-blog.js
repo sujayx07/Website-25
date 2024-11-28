@@ -1,7 +1,7 @@
 
-import img1 from '../images/layouts/blog-01.png'
-import img2 from '../images/layouts/blog-02.png'
-import img3 from '../images/layouts/blog-03.png'
+import img1 from '../images/layouts/blog-01.webp'
+import img2 from '../images/layouts/blog-02.webp'
+import img3 from '../images/layouts/blog-03.webp'
 
 
 const dataBlog = [

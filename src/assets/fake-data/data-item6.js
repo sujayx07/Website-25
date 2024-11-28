@@ -1,10 +1,10 @@
-import img1 from '../images/events/COMING SOON.jpg';
-import img2 from '../images/events/Tech selection.png';
-import img3 from '../images/events/Poster & video Contest.png';
-// import img4 from '../images/events/Photography contest.png';
-// import img5 from '../images/events/Content writing.png';
-// import img6 from '../images/events/COC Combine.png';
-// import img7 from '../images/events/meme coc.png';
+import img1 from '../images/events/COMING SOON.webp';
+import img2 from '../images/events/Tech selection.webp';
+import img3 from '../images/events/Poster & video Contest.webp';
+// import img4 from '../images/events/Photography contest.webp';
+// import img5 from '../images/events/Content writing.webp';
+// import img6 from '../images/events/COC Combine.webp';
+// import img7 from '../images/events/meme coc.webp';
 
 
 const dataItem6 = [

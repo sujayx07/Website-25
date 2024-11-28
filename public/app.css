@@ -2521,7 +2521,7 @@ body[data-magic-cursor=hide] .mouse-cursor {
 }
 
 .section-sale {
-  background: linear-gradient(0deg, rgba(50, 29, 95, 0.05), rgba(50, 29, 95, 0.05)), linear-gradient(0deg, rgba(243, 114, 147, 0.1), rgba(243, 114, 147, 0.1)), url("./../../assets/images/background/bg-sale-1.png");
+  background: linear-gradient(0deg, rgba(50, 29, 95, 0.05), rgba(50, 29, 95, 0.05)), linear-gradient(0deg, rgba(243, 114, 147, 0.1), rgba(243, 114, 147, 0.1)), url("./../../assets/images/background/bg-sale-1.webp");
   background-size: cover;
   position: relative;
   padding: 34px 0;
@@ -3199,7 +3199,7 @@ body[data-magic-cursor=hide] .mouse-cursor {
 }
 
 .counter-numbers {
-  background: url("./../../assets/images/background/bg-couter.png") no-repeat;
+  background: url("./../../assets/images/background/bg-couter.webp") no-repeat;
   background-position: bottom center;
   background-color: var(--surface);
   padding: 100px 0;
@@ -3897,7 +3897,7 @@ body[data-magic-cursor=hide] .mouse-cursor {
   border-radius: 12px;
   outline: none;
   -webkit-appearance: none;
-  background: url("./../../assets/images/icon/arrow-down.png") var(--bg1) no-repeat 73% !important;
+  background: url("./../../assets/images/icon/arrow-down.webp") var(--bg1) no-repeat 73% !important;
   background: var(--bg1);
 }
 .wallet .wallet-main .wallet-body .right form button {
@@ -5137,7 +5137,7 @@ body[data-magic-cursor=hide] .mouse-cursor {
 }
 
 .is_dark .section-sale {
-  background: url("./../../assets/images/background/bg-sale-1.png");
+  background: url("./../../assets/images/background/bg-sale-1.webp");
 }
 .is_dark .section-sale::before {
   background: #18191d;

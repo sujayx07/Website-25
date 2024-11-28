@@ -1,24 +1,24 @@
 
-// import img2 from '../images/events/Meme_Live.png';
-// import img3 from '../images/events/Poster_Live.png';
-// import img4 from '../images/events/Photography_Live.png';
-// import img5 from '../images/events/TechEvent_Live.png';
-// import img6 from '../images/events/Content_Live.png';
-// import img7 from '../images/events/Video_Live.png';
-// import img8 from '../images/events/hacksamarth23.jpg';
-// import img9 from '../images/events/chronicles-23.jpg';
-// import img10 from '../images/events/PHOTOGRAPHY-24.jpg';
-// import img11 from '../images/events/TOS-24.jpeg';
-import img12 from '../images/events/COMING SOON.jpg';
-import img13 from '../images/events/instant_ink.jpg';
-import img14 from '../images/events/MATRiX OF MOCK 1080 (1).png';
-import img15 from '../images/events/1080 Apti new.png';
-import img16 from '../images/events/shot a vid (2).png';
-import img17 from '../images/events/INNOVATHON final (5).png';
-import img18 from '../images/events/package.jpeg';
-// import img19 from '../images/events/demystifying_seminar.png';
-// import img20 from '../images/events/personal_interview.jpeg';
-// import img11 from '../images/events/War of conviction.jpg';
+// import img2 from '../images/events/Meme_Live.webp';
+// import img3 from '../images/events/Poster_Live.webp';
+// import img4 from '../images/events/Photography_Live.webp';
+// import img5 from '../images/events/TechEvent_Live.webp';
+// import img6 from '../images/events/Content_Live.webp';
+// import img7 from '../images/events/Video_Live.webp';
+// import img8 from '../images/events/hacksamarth23.webp';
+// import img9 from '../images/events/chronicles-23.webp';
+// import img10 from '../images/events/PHOTOGRAPHY-24.webp';
+// import img11 from '../images/events/TOS-24.webp';
+import img12 from '../images/events/COMING SOON.webp';
+import img13 from '../images/events/instant_ink.webp';
+import img14 from '../images/events/MATRiX OF MOCK 1080 (1).webp';
+import img15 from '../images/events/1080 Apti new.webp';
+import img16 from '../images/events/shot a vid (2).webp';
+import img17 from '../images/events/INNOVATHON final (5).webp';
+import img18 from '../images/events/package.webp';
+// import img19 from '../images/events/demystifying_seminar.webp';
+// import img20 from '../images/events/personal_interview.webp';
+// import img11 from '../images/events/War of conviction.webp';
 
 const dataItem5 = [
   // {

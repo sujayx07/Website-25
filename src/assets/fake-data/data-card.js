@@ -1,14 +1,14 @@
 
-import img1 from '../images/new/card1.jpg'
+import img1 from '../images/new/card1.webp'
 import img2 from '../images/new/card02.gif'
-import img3 from '../images/new/card6.jpg'
-import img4 from '../images/new/card3.jpg'
-import img5 from '../images/new/card5.jpg'
-import img6 from '../images/new/card7.jpg'
-import img7 from '../images/new/card8.jpg'
+import img3 from '../images/new/card6.webp'
+import img4 from '../images/new/card3.webp'
+import img5 from '../images/new/card5.webp'
+import img6 from '../images/new/card7.webp'
+import img7 from '../images/new/card8.webp'
 
 
-import logo from '../images/new/newlogo.png'
+import logo from '../images/new/newlogo.webp'
 
 
 

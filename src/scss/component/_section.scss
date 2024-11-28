@@ -1823,7 +1823,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: url("../../assets/images/layouts/pattern.png") no-repeat;
+    background: url("../../assets/images/layouts/pattern.webp") no-repeat;
     background-size: cover;
     z-index: 0;
   }
@@ -3066,7 +3066,7 @@ section.touch {
 }
 
 .widget-join {
-  background: url("../../assets/images/background/join.png") no-repeat;
+  background: url("../../assets/images/background/join.webp") no-repeat;
   background-size: cover;
 
   text-align: center;
@@ -3208,7 +3208,7 @@ section.touch {
     .ac {
       display: flex;
       align-items: center;
-      background: url("../../assets/images/background/recent.png") no-repeat;
+      background: url("../../assets/images/background/recent.webp") no-repeat;
       background-size: cover;
       background-position: center center;
       background-color: rgba(0, 0, 0, 0.5);
@@ -3237,7 +3237,7 @@ section.touch {
       &.next {
         flex-direction: row-reverse;
         padding: 15px 14px 15px 10px;
-        background: url("../../assets/images/background/recent-2.png") no-repeat;
+        background: url("../../assets/images/background/recent-2.webp") no-repeat;
 
         svg {
           margin-right: 0;
@@ -3461,7 +3461,7 @@ section.touch {
   margin-top: 39px;
 
   .main {
-    background: url("../../assets/images/background/watch.png") no-repeat;
+    background: url("../../assets/images/background/watch.webp") no-repeat;
     background-position: center center;
     padding: 30px 15px 0;
     border-radius: 26px;

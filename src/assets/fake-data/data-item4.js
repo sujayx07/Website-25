@@ -1,6 +1,6 @@
-import img1 from '../images/safalya-21/TOTS.jpeg';
-import img2 from '../images/safalya-21/coc.jpeg';
-import img3 from '../images/safalya-21/induction.jpeg';
+import img1 from '../images/safalya-21/TOTS.webp';
+import img2 from '../images/safalya-21/coc.webp';
+import img3 from '../images/safalya-21/induction.webp';
 
 
 

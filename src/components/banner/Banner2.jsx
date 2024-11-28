@@ -1,7 +1,7 @@
 import React , {useState} from 'react';
 import PropTypes from 'prop-types';
 import { Swiper, SwiperSlide } from "swiper/react";
-import newlogo from "../../assets/images/new/whitelogo.png";
+import newlogo from "../../assets/images/new/whitelogo.webp";
 
 
 

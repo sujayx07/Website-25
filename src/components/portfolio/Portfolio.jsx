@@ -1,7 +1,7 @@
 import React , {useState} from 'react';
 import PropTypes from 'prop-types';
 
-import img from '../../assets/images/layouts/portfolio.png'
+import img from '../../assets/images/layouts/portfolio.webp'
 
 Portfolio.propTypes = {
     data: PropTypes.array

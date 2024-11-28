@@ -1,8 +1,8 @@
 
-import icon1 from '../images/icon/quote-2.png'
-import avt1 from '../images/layouts/avt-08.png'
-import avt2 from '../images/layouts/avt-09.png'
-import avt3 from '../images/layouts/avt-10.png'
+import icon1 from '../images/icon/quote-2.webp'
+import avt1 from '../images/layouts/avt-08.webp'
+import avt2 from '../images/layouts/avt-09.webp'
+import avt3 from '../images/layouts/avt-10.webp'
 
 
 const dataTestimonials2 = [

@@ -1,6 +1,6 @@
 
-import icon1 from '../images/icon/quote.png'
-import logo from '../images/new/violetlogo.png'
+import icon1 from '../images/icon/quote.webp'
+import logo from '../images/new/violetlogo.webp'
 
 
 const dataTestimonials = [

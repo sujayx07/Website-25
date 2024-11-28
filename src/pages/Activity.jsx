@@ -1,10 +1,10 @@
 import React from 'react';
 
-import img1 from '../assets/images/new/devfest.png'
-import img2 from '../assets/images/new/hack.png'
-import img3 from '../assets/images/new/hack4bengal.png'
-import img4 from '../assets/images/new/Apertre.jpg'
-import img5 from '../assets/images/new/GCCD_card.png'
+import img1 from '../assets/images/new/devfest.webp'
+import img2 from '../assets/images/new/hack.webp'
+import img3 from '../assets/images/new/hack4bengal.webp'
+import img4 from '../assets/images/new/Apertre.webp'
+import img5 from '../assets/images/new/GCCD_card.webp'
 
 import PageTitle from '../components/pagetitle/PageTitle_Explore';
 import Button from '../components/button/Button';

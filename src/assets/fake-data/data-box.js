@@ -1,8 +1,8 @@
 
-import img1 from '../images/icon/icon1.png'
-import img2 from '../images/icon/icon2.png'
-import img3 from '../images/icon/icon3.png'
-import img4 from '../images/icon/icon4.png'
+import img1 from '../images/icon/icon1.webp'
+import img2 from '../images/icon/icon2.webp'
+import img3 from '../images/icon/icon3.webp'
+import img4 from '../images/icon/icon4.webp'
 
 
 const dataBox = [
