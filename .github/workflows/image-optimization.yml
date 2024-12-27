@@ -1,5 +1,8 @@
 name: Image Optimization and Conversion
 
+# Author: [Ritaban Ghosh]
+# GitHub Profile: [https://github.com/ritaban06]
+
 on:
   pull_request:
     branches:
