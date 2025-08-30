@@ -17,12 +17,20 @@ jobs:
     
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: ${{ github.repository }}
           ref: ${{ github.head_ref }}
           fetch-depth: 0
           
+      - name: Cache apt packages
+        uses: actions/cache@v3
+        with:
+          path: /var/cache/apt/archives
+          key: ${{ runner.os }}-apt-${{ hashFiles('**/image-optimization.yml') }}
+          restore-keys: |
+            ${{ runner.os }}-apt-
+
       - name: Install WebP Tools
         run: sudo apt-get update && sudo apt-get install webp -y
         
@@ -68,7 +76,7 @@ jobs:
           
           git add -A
           
-          if git diff --staged --quiet; then
+          if [ -z "$(git status --porcelain)" ]; then
             echo "No changes to commit"
             exit 0
           fi
