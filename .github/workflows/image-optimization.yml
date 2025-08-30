@@ -36,7 +36,7 @@ jobs:
         
       - name: Convert Images to WebP and Remove Originals
         run: |
-          find . -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) \
+          find . -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.tiff" -o -iname "*.bmp" \) \
           -not -path "*/node_modules/*" \
           -not -path "*/.github/*" \
           -not -path "*/dist/*" \
