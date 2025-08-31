@@ -43,8 +43,8 @@ function About2(props) {
         {
             subheading: 'Graphics Wing',
             heading: 'Kalakriti',
-            desc1: 'With pixels as our palette, we paint the canvas of imagination." Step into Kalakriti, the ethereal realm where visions take digital form' ,
-            desc2 :'Our emblem, a palette and stylus, transforms mere ideas into breathtaking digital tapestries, each stroke an echo of artistic innovation.'
+            desc1: '"With pixels as our palette, we paint the canvas of imagination."' ,
+            desc2 :'Step into Kalakriti, the ethereal realm where visions take digital form. Our emblem, a palette and stylus, transforms mere ideas into breathtaking digital tapestries, each stroke an echo of artistic innovation.'
 
         }
     )

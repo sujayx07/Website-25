@@ -1,6 +1,6 @@
 import React , {useState} from 'react';
 
-import img1 from '/images2/new/pratibimb.webp';
+import img1 from '/images2/new/Sampreshan.webp';
 import img2 from '/images2/layouts/about-02.webp'
 import img3 from '/images2/layouts/about-03.webp'
 import img4 from '/images2/layouts/about-04.webp'
@@ -41,11 +41,10 @@ function About7(props) {
 
     const [dataBlock] = useState(
         {
-            subheading: 'Photography Wing',
-            heading: 'Pratibimb',
-            desc1: '"In every click, time stands still, and emotions echo forever."' ,
-            desc2 :'Pratibimb, the guardian of ephemeral beauty. Our emblem, a lens, transforms transient moments into eternal memories, each photograph a portal to traverse the realm of emotions frozen in time.'
-            
+            subheading: 'OutReach Wing',
+            heading: 'Sampreshan',
+            desc1: '"Through the lens, we capture the symphony of fleeting moments."' ,
+            desc2 : "Sampreshan, the storytellers through the visual prism. Our emblem, a camera's lens, encapsulates the essence of fleeting instants, immortalizing the dynamic energy of Samarth's journey"
         }
     )
     return (
