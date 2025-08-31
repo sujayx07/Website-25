@@ -29,7 +29,7 @@ const dataTeam3 = [
         id: 2,
         img: img2,
         name: 'Anish Agarwal',
-        position: 'Sponsor Head',
+        position: 'Convener & Sponsor Head',
         links: {
             link1: 'anishagarwal670@gmail.com',
           }
@@ -101,7 +101,7 @@ const dataTeam3 = [
         id: 10,
         img: img10,
         name: 'Priyanshu Priya',
-        position: 'Convenor',
+        position: 'Convenor & Social Media Head',
         links: {
             link1: 'hardestclimb586@gmail.com',
           }
