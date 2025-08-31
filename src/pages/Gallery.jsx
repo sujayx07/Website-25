@@ -9,13 +9,8 @@ import lgZoom from "lightgallery/plugins/zoom";
 import PageTitle from "../components/pagetitle/PageTitle_Explore";
 import { Link } from "react-router-dom";
 
-import topImg1 from "/images2/gallery/img/image1.1.jpg";
-import topImg2 from "/images2/gallery/img/image1.2.jpg";
 import topImg3 from "/images2/gallery/img/image1.3.jpg";
-import topImg4 from "/images2/gallery/img/image1.4.jpg";
 import topImg5 from "/images2/gallery/img/image1.5.jpg";
-import topImg6 from "/images2/gallery/img/image1.6.jpg";
-import topImg7 from "/images2/gallery/img/image1.7.jpg";
 
 import newimg1 from "/images2/gallery/samarth photos/img121.jpg";
 import newimg2 from "/images2/gallery/samarth photos/img122.jpg";
@@ -232,32 +227,12 @@ function Gallery(props) {
   };
 
   const galleryData = [
-    { id: 301,
-      img: topImg1,
-      alt:"Event@Samarth",
-    },
-    { id: 302,
-      img: topImg2,
-      alt:"Event@Samarth",
-    },
     { id: 303,
       img: topImg3,
       alt:"Event@Samarth",
     },
-    { id: 304,
-      img: topImg4,
-      alt:"Event@Samarth",
-    },
     { id: 305,
       img: topImg5,
-      alt:"Event@Samarth",
-    },
-    { id: 306,
-      img: topImg6,
-      alt:"Event@Samarth",
-    },
-    { id: 307,
-      img: topImg7,
       alt:"Event@Samarth",
     },
     { id: 201,
