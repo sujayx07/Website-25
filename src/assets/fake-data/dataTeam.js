@@ -1,8 +1,8 @@
 
 import img1 from '/images2/Team/Rituparna.webp'
-import img2 from '/images2/Team/Dalia.webp'
+// import img2 from '/images2/Team/Dalia.webp'
 import img3 from '/images2/Team/Bidhan.webp'
-import img4 from '/images2/Team/Santanu.webp'
+// import img4 from '/images2/Team/Santanu.webp'
 import img5 from '/images2/Team/Gourav.webp'
 import img6 from '/images2/Team/teacher1.webp'
 import img7 from '/images2/Team/teacher2.webp'
@@ -17,12 +17,12 @@ const dataTeam = [
         name: 'Ms. Rituparna Ganguly',
         position: 'Assistant Professor, Dept. of Humanities'
     },
-    {
-        id: 2,
-        img: img2,
-        name: 'Ms. Dalia Ghosh',
-        position: 'Librarian'
-    },
+    // {
+    //     id: 2,
+    //     img: img2,
+    //     name: 'Ms. Dalia Ghosh',
+    //     position: 'Librarian'
+    // },
 
     {
         id: 3,
@@ -31,12 +31,12 @@ const dataTeam = [
         position: 'Assistant Professor, Dept. of AIML'
     },
 
-    {
-        id: 4,
-        img: img4,
-        name: 'Mr. Santanu Mondal',
-        position: 'Assistant Professor, Dept. of EIE'
-    },
+    // {
+    //     id: 4,
+    //     img: img4,
+    //     name: 'Mr. Santanu Mondal',
+    //     position: 'Assistant Professor, Dept. of EIE'
+    // },
 
     {
         id: 5,
