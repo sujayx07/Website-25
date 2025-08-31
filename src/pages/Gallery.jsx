@@ -1,4 +1,5 @@
-import React, { useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
+import Masonry from "react-masonry-css";
 import LightGallery from "lightgallery/react";
 import "lightgallery/css/lightgallery.css";
 import "lightgallery/css/lg-zoom.css";
@@ -7,6 +8,92 @@ import lgThumbnail from "lightgallery/plugins/thumbnail";
 import lgZoom from "lightgallery/plugins/zoom";
 import PageTitle from "../components/pagetitle/PageTitle_Explore";
 import { Link } from "react-router-dom";
+
+import topImg1 from "/images2/gallery/img/image1.1.jpg";
+import topImg2 from "/images2/gallery/img/image1.2.jpg";
+import topImg3 from "/images2/gallery/img/image1.3.jpg";
+import topImg4 from "/images2/gallery/img/image1.4.jpg";
+import topImg5 from "/images2/gallery/img/image1.5.jpg";
+import topImg6 from "/images2/gallery/img/image1.6.jpg";
+import topImg7 from "/images2/gallery/img/image1.7.jpg";
+
+import newimg1 from "/images2/gallery/samarth photos/img121.jpg";
+import newimg2 from "/images2/gallery/samarth photos/img122.jpg";
+import newimg3 from "/images2/gallery/samarth photos/img123.jpg";
+import newimg4 from "/images2/gallery/samarth photos/img124.jpg";
+import newimg5 from "/images2/gallery/samarth photos/img125.jpg";
+import newimg6 from "/images2/gallery/samarth photos/img126.jpg";
+import newimg7 from "/images2/gallery/samarth photos/img127.jpg";
+import newimg8 from "/images2/gallery/samarth photos/img128.jpg";
+import newimg9 from "/images2/gallery/samarth photos/img129.jpg";
+import newimg10 from "/images2/gallery/samarth photos/img130.jpg";
+import newimg11 from "/images2/gallery/samarth photos/img131.jpg";
+import newimg12 from "/images2/gallery/samarth photos/img132.jpg";
+import newimg13 from "/images2/gallery/samarth photos/img133.jpg";
+import newimg14 from "/images2/gallery/samarth photos/img134.jpg";
+import newimg15 from "/images2/gallery/samarth photos/img135.jpg";
+import newimg16 from "/images2/gallery/samarth photos/img136.jpg";
+import newimg17 from "/images2/gallery/samarth photos/img137.jpg";
+import newimg18 from "/images2/gallery/samarth photos/img138.jpg";
+import newimg19 from "/images2/gallery/samarth photos/img139.jpg";
+import newimg20 from "/images2/gallery/samarth photos/img140.jpg";
+import newimg21 from "/images2/gallery/samarth photos/img141.jpg";
+import newimg22 from "/images2/gallery/samarth photos/img142.jpg";
+import newimg23 from "/images2/gallery/samarth photos/img143.jpg";
+import newimg24 from "/images2/gallery/samarth photos/img144.jpg";
+import newimg25 from "/images2/gallery/samarth photos/img145.jpg";
+import newimg26 from "/images2/gallery/samarth photos/img146.jpg";
+import newimg27 from "/images2/gallery/samarth photos/img147.jpg";
+import newimg28 from "/images2/gallery/samarth photos/img148.jpg";
+import newimg29 from "/images2/gallery/samarth photos/img149.jpg";
+import newimg30 from "/images2/gallery/samarth photos/img150.jpg";
+import newimg31 from "/images2/gallery/samarth photos/img151.jpg";
+import newimg32 from "/images2/gallery/samarth photos/img152.jpg";
+import newimg33 from "/images2/gallery/samarth photos/img153.jpg";
+import newimg34 from "/images2/gallery/samarth photos/img154.jpg";
+import newimg35 from "/images2/gallery/samarth photos/img155.jpg";
+import newimg36 from "/images2/gallery/samarth photos/img156.jpg";
+import newimg37 from "/images2/gallery/samarth photos/img157.jpg";
+import newimg38 from "/images2/gallery/samarth photos/img158.jpg";
+import newimg39 from "/images2/gallery/samarth photos/img159.jpg";
+import newimg40 from "/images2/gallery/samarth photos/img160.jpg";
+import newimg41 from "/images2/gallery/samarth photos/img161.jpg";
+import newimg42 from "/images2/gallery/samarth photos/img162.jpg";
+import newimg43 from "/images2/gallery/samarth photos/img163.jpg";
+import newimg44 from "/images2/gallery/samarth photos/img164.jpg";
+import newimg45 from "/images2/gallery/samarth photos/img165.jpg";
+import newimg46 from "/images2/gallery/samarth photos/img166.jpg";
+import newimg47 from "/images2/gallery/samarth photos/img167.jpg";
+import newimg48 from "/images2/gallery/samarth photos/img168.jpg";
+import newimg49 from "/images2/gallery/samarth photos/img169.jpg";
+import newimg50 from "/images2/gallery/samarth photos/img170.jpg";
+import newimg51 from "/images2/gallery/samarth photos/img171.jpg";
+import newimg52 from "/images2/gallery/samarth photos/img172.jpg";
+import newimg53 from "/images2/gallery/samarth photos/img173.jpg";
+import newimg54 from "/images2/gallery/samarth photos/img174.jpg";
+import newimg55 from "/images2/gallery/samarth photos/img175.jpg";
+import newimg56 from "/images2/gallery/samarth photos/img176.jpg";
+import newimg57 from "/images2/gallery/samarth photos/img178.jpg";
+import newimg58 from "/images2/gallery/samarth photos/img179.jpg";
+import newimg59 from "/images2/gallery/samarth photos/img180.jpg";
+import newimg60 from "/images2/gallery/samarth photos/img181.jpg";
+import newimg61 from "/images2/gallery/samarth photos/img182.jpg";
+import newimg62 from "/images2/gallery/samarth photos/img183.jpg";
+import newimg63 from "/images2/gallery/samarth photos/img184.jpg";
+import newimg64 from "/images2/gallery/samarth photos/img185.jpg";
+import newimg65 from "/images2/gallery/samarth photos/img186.jpg";
+import newimg66 from "/images2/gallery/samarth photos/img187.jpg";
+import newimg67 from "/images2/gallery/samarth photos/img188.jpg";
+import newimg68 from "/images2/gallery/samarth photos/img189.jpg";
+import newimg69 from "/images2/gallery/samarth photos/img190.jpg";
+import newimg70 from "/images2/gallery/samarth photos/img191.jpg";
+import newimg71 from "/images2/gallery/samarth photos/img192.jpg";
+import newimg72 from "/images2/gallery/samarth photos/img193.jpg";
+import newimg73 from "/images2/gallery/samarth photos/img194.jpg";
+import newimg74 from "/images2/gallery/samarth photos/img195.jpg";
+import newimg75 from "/images2/gallery/samarth photos/img196.jpg";
+import newimg76 from "/images2/gallery/samarth photos/img197.jpg";
+import newimg77 from "/images2/gallery/samarth photos/img198.jpg";
 
 import img1 from "/images2/gallery/1.webp";
 import img2 from "/images2/gallery/2.webp";
@@ -131,13 +218,356 @@ import img119 from "/images2/gallery/g117.webp";
 import img120 from "/images2/gallery/g118.webp";
 
 function Gallery(props) {
-  const itemsPerPage = 8;
-  const [currentPage, setCurrentPage] = useState(1);
   const [displayedImages, setDisplayedImages] = useState([]);
-  const [totalImages, setTotalImages] = useState(0);
+  
+  const breakpointColumnsObj = {
+    default: 6,
+    1800: 5,
+    1500: 4,
+    1200: 3,
+    900: 3,
+    700: 2,
+    480: 2,
+    320: 1
+  };
 
   const galleryData = [
-    
+    { id: 301,
+      img: topImg1,
+      alt:"Event@Samarth",
+    },
+    { id: 302,
+      img: topImg2,
+      alt:"Event@Samarth",
+    },
+    { id: 303,
+      img: topImg3,
+      alt:"Event@Samarth",
+    },
+    { id: 304,
+      img: topImg4,
+      alt:"Event@Samarth",
+    },
+    { id: 305,
+      img: topImg5,
+      alt:"Event@Samarth",
+    },
+    { id: 306,
+      img: topImg6,
+      alt:"Event@Samarth",
+    },
+    { id: 307,
+      img: topImg7,
+      alt:"Event@Samarth",
+    },
+    { id: 201,
+      img: newimg1,
+      alt:"Event@Samarth",
+    },
+    { id: 202,
+      img: newimg2,
+      alt:"Event@Samarth",
+    },
+    { id: 203,
+      img: newimg3,
+      alt:"Event@Samarth",
+    },
+    { id: 204,
+      img: newimg4,
+      alt:"Event@Samarth",
+    },
+    { id: 205,
+      img: newimg5,
+      alt:"Event@Samarth",
+    },
+    { id: 206,
+      img: newimg6,
+      alt:"Event@Samarth",
+    },
+    { id: 207,
+      img: newimg7,
+      alt:"Event@Samarth",
+    },
+    { id: 208,
+      img: newimg8,
+      alt:"Event@Samarth",
+    },
+    { id: 209,
+      img: newimg9,
+      alt:"Event@Samarth",
+    },
+    { id: 210,
+      img: newimg10,
+      alt:"Event@Samarth",
+    },
+    { id: 211,
+      img: newimg11,
+      alt:"Event@Samarth",
+    },
+    { id: 212,
+      img: newimg12,
+      alt:"Event@Samarth",
+    },
+    { id: 213,
+      img: newimg13,
+      alt:"Event@Samarth",
+    },
+    { id: 214,
+      img: newimg14,
+      alt:"Event@Samarth",
+    },
+    { id: 215,
+      img: newimg15,
+      alt:"Event@Samarth",
+    },
+    { id: 216,
+      img: newimg16,
+      alt:"Event@Samarth",
+    },
+    { id: 217,
+      img: newimg17,
+      alt:"Event@Samarth",
+    },
+    { id: 218,
+      img: newimg18,
+      alt:"Event@Samarth",
+    },
+    { id: 219,
+      img: newimg19,
+      alt:"Event@Samarth",
+    },
+    { id: 220,
+      img: newimg20,
+      alt:"Event@Samarth",
+    },
+    { id: 221,
+      img: newimg21,
+      alt:"Event@Samarth",
+    },
+    { id: 222,
+      img: newimg22,
+      alt:"Event@Samarth",
+    },
+    { id: 223,
+      img: newimg23,
+      alt:"Event@Samarth",
+    },
+    { id: 224,
+      img: newimg24,
+      alt:"Event@Samarth",
+    },
+    { id: 225,
+      img: newimg25,
+      alt:"Event@Samarth",
+    },
+    { id: 226,
+      img: newimg26,
+      alt:"Event@Samarth",
+    },
+    { id: 227,
+      img: newimg27,
+      alt:"Event@Samarth",
+    },
+    { id: 228,
+      img: newimg28,
+      alt:"Event@Samarth",
+    },
+    { id: 229,
+      img: newimg29,
+      alt:"Event@Samarth",
+    },
+    { id: 230,
+      img: newimg30,
+      alt:"Event@Samarth",
+    },
+    { id: 231,
+      img: newimg31,
+      alt:"Event@Samarth",
+    },
+    { id: 232,
+      img: newimg32,
+      alt:"Event@Samarth",
+    },
+    { id: 233,
+      img: newimg33,
+      alt:"Event@Samarth",
+    },
+    { id: 234,
+      img: newimg34,
+      alt:"Event@Samarth",
+    },
+    { id: 235,
+      img: newimg35,
+      alt:"Event@Samarth",
+    },
+    { id: 236,
+      img: newimg36,
+      alt:"Event@Samarth",
+    },
+    { id: 237,
+      img: newimg37,
+      alt:"Event@Samarth",
+    },
+    { id: 238,
+      img: newimg38,
+      alt:"Event@Samarth",
+    },
+    { id: 239,
+      img: newimg39,
+      alt:"Event@Samarth",
+    },
+    { id: 240,
+      img: newimg40,
+      alt:"Event@Samarth",
+    },
+    { id: 241,
+      img: newimg41,
+      alt:"Event@Samarth",
+    },
+    { id: 242,
+      img: newimg42,
+      alt:"Event@Samarth",
+    },
+    { id: 243,
+      img: newimg43,
+      alt:"Event@Samarth",
+    },
+    { id: 244,
+      img: newimg44,
+      alt:"Event@Samarth",
+    },
+    { id: 245,
+      img: newimg45,
+      alt:"Event@Samarth",
+    },
+    { id: 246,
+      img: newimg46,
+      alt:"Event@Samarth",
+    },
+    { id: 247,
+      img: newimg47,
+      alt:"Event@Samarth",
+    },
+    { id: 248,
+      img: newimg48,
+      alt:"Event@Samarth",
+    },
+    { id: 249,
+      img: newimg49,
+      alt:"Event@Samarth",
+    },
+    { id: 250,
+      img: newimg50,
+      alt:"Event@Samarth",
+    },
+    { id: 251,
+      img: newimg51,
+      alt:"Event@Samarth",
+    },
+    { id: 252,
+      img: newimg52,
+      alt:"Event@Samarth",
+    },
+    { id: 253,
+      img: newimg53,
+      alt:"Event@Samarth",
+    },
+    { id: 254,
+      img: newimg54,
+      alt:"Event@Samarth",
+    },
+    { id: 255,
+      img: newimg55,
+      alt:"Event@Samarth",
+    },
+    { id: 256,
+      img: newimg56,
+      alt:"Event@Samarth",
+    },
+    { id: 257,
+      img: newimg57,
+      alt:"Event@Samarth",
+    },
+    { id: 258,
+      img: newimg58,
+      alt:"Event@Samarth",
+    },
+    { id: 259,
+      img: newimg59,
+      alt:"Event@Samarth",
+    },
+    { id: 260,
+      img: newimg60,
+      alt:"Event@Samarth",
+    },
+    { id: 261,
+      img: newimg61,
+      alt:"Event@Samarth",
+    },
+    { id: 262,
+      img: newimg62,
+      alt:"Event@Samarth",
+    },
+    { id: 263,
+      img: newimg63,
+      alt:"Event@Samarth",
+    },
+    { id: 264,
+      img: newimg64,
+      alt:"Event@Samarth",
+    },
+    { id: 265,
+      img: newimg65,
+      alt:"Event@Samarth",
+    },
+    { id: 266,
+      img: newimg66,
+      alt:"Event@Samarth",
+    },
+    { id: 267,
+      img: newimg67,
+      alt:"Event@Samarth",
+    },
+    { id: 268,
+      img: newimg68,
+      alt:"Event@Samarth",
+    },
+    { id: 269,
+      img: newimg69,
+      alt:"Event@Samarth",
+    },
+    { id: 270,
+      img: newimg70,
+      alt:"Event@Samarth",
+    },
+    { id: 271,
+      img: newimg71,
+      alt:"Event@Samarth",
+    },
+    { id: 272,
+      img: newimg72,
+      alt:"Event@Samarth",
+    },
+    { id: 273,
+      img: newimg73,
+      alt:"Event@Samarth",
+    },
+    { id: 274,
+      img: newimg74,
+      alt:"Event@Samarth",
+    },
+    { id: 275,
+      img: newimg75,
+      alt:"Event@Samarth",
+    },
+    { id: 276,
+      img: newimg76,
+      alt:"Event@Samarth",
+    },
+    { id: 277,
+      img: newimg77,
+      alt:"Event@Samarth",
+    },
     { id: 1,
       img: img1,
       alt:"Event@Samarth",
@@ -741,34 +1171,14 @@ function Gallery(props) {
   ];
 
   useEffect(() => {
-
-    const startIndex = 0;
-    const endIndex = Math.min(startIndex + itemsPerPage, galleryData.length);
-    const initialImages = galleryData.slice(startIndex, endIndex);
-
-    setTotalImages(galleryData.length);
-    setDisplayedImages(initialImages);
+    setDisplayedImages(galleryData);
   }, []);
-
-  const handleViewMore = () => {
-    const nextPageStartIndex = displayedImages.length;
-    const nextPageEndIndex = Math.min(nextPageStartIndex + itemsPerPage, totalImages);
-    const nextPageImages = galleryData.slice(nextPageStartIndex, nextPageEndIndex);
-
-    setDisplayedImages((prevImages) => [...prevImages, ...nextPageImages]);
-    setCurrentPage((prevPage) => (prevPage % Math.ceil(totalImages / itemsPerPage)) + 1);
-
-    const galleryContainer = document.querySelector('.gallery-container');
-    if (galleryContainer) {
-      galleryContainer.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-  };
 
   return (
     <div className="wrapper">
       <PageTitle title="Gallery" desc="Our Glorious Galleria" />
 
-      <section className="participants">
+      <section className="participants" style={{ overflowX: 'hidden' }}>
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -778,64 +1188,174 @@ function Gallery(props) {
             </div>
 
             <div className="image1 gallery-container">
-              <LightGallery plugins={[lgThumbnail, lgZoom]}>
-                {displayedImages.map((item) => (
-                  <a key={item.id} href={item.img}>
-                    <img
-                      alt={item.alt}
-                      src={item.img}
-                      data-src={item.img}
-                      className="lg-object"
-                    />
-                  </a>
-                ))}
+              <LightGallery 
+                plugins={[lgThumbnail, lgZoom]}
+                speed={500}
+                gutter={8}
+              >
+                <Masonry
+                  breakpointCols={breakpointColumnsObj}
+                  className="masonry-grid"
+                  columnClassName="masonry-grid_column"
+                  enableResizableChildren
+                  >
+                  {displayedImages.map((item) => (
+                    <a key={item.id} href={item.img}>
+                      <img
+                        alt={item.alt}
+                        src={item.img}
+                        data-src={item.img}
+                        className="lg-object gallery-image fade-in"
+                        style={{ marginBottom: "16px", borderRadius: "8px", maxWidth: "100%", height: "auto" }}
+                      />
+                    </a>
+                  ))}
+                </Masonry>
               </LightGallery>
             </div>
           </div>
         </div>
-        <div className="col d-flex align-items-center justify-content-center">
-          {totalImages > itemsPerPage && (
-            <button className="action-btn to" onClick={handleViewMore} style={{ width: 'auto' }}>
-              <span style={{ padding: '15px 24px' }}>View More</span>
-            </button>
-          )}
-        </div>
       </section>
       <style>
         {`
-          
-         .view-more-container {
-            position: fixed;
-            bottom: 0;
-            left: 0;
+          .masonry-grid {
+            display: flex;
+            margin-left: -8px;
+            width: auto;
+            box-sizing: border-box;
+            padding: 0 8px;
+          }
+          .masonry-grid_column {
+            padding-left: 8px;
+            padding-right: 8px;
+            background-clip: padding-box;
+            box-sizing: border-box;
+          }
+          .masonry-grid_column > a {
+            display: block;
+            margin-bottom: 16px;
+            position: relative;
             width: 100%;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.8);
+            transition: transform 0.3s ease;
+          }
+          .masonry-grid_column > a::before {
+            content: '';
+            display: block;
+            padding-top: 8px;
+          }
+          .gallery-container {
+            padding: 0 8px;
+            margin: 0 -8px;
+            box-sizing: border-box;
+            width: 100%;
+            max-width: 100vw;
+            overflow-x: hidden;
+          }
+          
+          @media screen and (max-width: 768px) {
+            .masonry-grid {
+              padding: 0 4px;
+            }
+            .masonry-grid_column {
+              padding-left: 4px;
+              padding-right: 4px;
+            }
+            .masonry-grid_column > a {
+              margin-bottom: 8px;
+            }
+            .gallery-image {
+              border-radius: 6px;
+            }
+            .gallery-container {
+              padding: 0 4px;
+              margin: 0 -4px;
+            }
+          }
+
+          @media screen and (max-width: 480px) {
+            .masonry-grid_column > a {
+              margin-bottom: 6px;
+            }
+            .gallery-image {
+              border-radius: 4px;
+            }
+            .action-btn {
+              padding: 8px 16px !important;
+              font-size: 14px;
+            }
+          }
+
+          @media screen and (max-width: 320px) {
+            .masonry-grid {
+              padding: 0 2px;
+            }
+            .masonry-grid_column {
+              padding-left: 2px;
+              padding-right: 2px;
+            }
+            .masonry-grid_column > a {
+              margin-bottom: 4px;
+            }
+          }
+
+          .participants {
+            overflow-x: hidden;
+            width: 100%;
+          }
+
+          @supports (-webkit-touch-callout: none) {
+            /* CSS specific to iOS devices */
+            .gallery-container {
+              width: 100vw;
+              -webkit-overflow-scrolling: touch;
+            }
+          }
+          .gallery-image {
+            display: block;
+            margin-bottom: 16px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: transform 0.3s cubic-bezier(0.4,0,0.2,1), box-shadow 0.3s cubic-bezier(0.4,0,0.2,1), filter 0.3s;
+            max-width: 100%;
+            height: auto;
+            opacity: 0;
+            filter: blur(8px) grayscale(30%);
+            animation: fadeIn 0.8s ease forwards;
+          }
+          .gallery-image.fade-in {
+            animation: fadeIn 0.8s ease forwards;
+          }
+          @keyframes fadeIn {
+            to {
+              opacity: 1;
+              filter: blur(0) grayscale(0);
+            }
+          }
+          .gallery-image:hover {
+            transform: scale(1.07) rotate(-1deg);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+            filter: brightness(1.08) saturate(1.2);
+            z-index: 2;
           }
           @media (max-width: 767px) {
             .gallery-container {
-              text-align:center;
-              width:100%;
-              display:block;
-              margin:auto;
-              overflow-x:hidden;
+              text-align: center;
+              width: 100%;
+              display: block;
+              margin: auto;
+              overflow-x: hidden;
               overflow-y: auto;
             }
             .gallery-container::-webkit-scrollbar {
               display: none;
-              overflow-x:hidden;
-          }
+              overflow-x: hidden;
+            }
             .gallery-image {
-              width:300px;
-              height:300px;
+              max-width: 100%;
+              height: auto;
             }
-            .image1{
-              height:auto;
-            }
-            .image1 img{
-              width:300px;
-              height:250px;
-              margin-right:0px;
+            .image1 {
+              height: auto;
             }
           }
         `}</style>
