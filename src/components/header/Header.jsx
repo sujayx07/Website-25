@@ -85,6 +85,10 @@ const Header = () => {
                                 <span className="new-text">NEW</span>
                               )}
                             </div>
+                          ) : data.external ? (
+                            <a href={data.external} target="_blank" rel="noopener noreferrer">
+                              {data.name}
+                            </a>
                           ) : (
                             <Link to={data.links} onClick={handleCloseMenu}>
                               {data.name}
