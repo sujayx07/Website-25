@@ -1,5 +1,5 @@
 import React , {useState} from 'react';
-import img1 from '/images2/new/SANGAM.webp';
+import img1 from '/images2/new/pratibimb.webp';
 import img2 from '/images2/layouts/about-02.webp'
 import img3 from '/images2/layouts/about-03.webp'
 import img4 from '/images2/layouts/about-04.webp'
@@ -40,11 +40,10 @@ function About6(props) {
 
     const [dataBlock] = useState(
         {
-            subheading: 'Cultural Wing',
-            heading: 'Sangam',
-            desc1: '"In the tapestry of cultures, unity finds its masterpiece."' ,
-            desc2 :'Sangam, where hues of cultures blend harmoniously. Our emblem, a kaleidoscope of vibrant shades, mirrors the vibrant celebration of diversity, uniting traditions into an artistic masterpiece.'
-            
+            subheading: 'Photography Wing',
+            heading: 'Pratibimb',
+            desc1: '"In every click, time stands still, and emotions echo forever."' ,
+            desc2 :'Pratibimb, the guardian of ephemeral beauty. Our emblem, a lens, transforms transient moments into eternal memories, each photograph a portal to traverse the realm of emotions frozen in time.'
         }
     )
     return (

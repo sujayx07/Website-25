@@ -1,6 +1,5 @@
 //Heads-new 2024
 
-
 const img1 = '/images2/dataTeam2/img1.webp'
 const img2 = '/images2/dataTeam2/img2.webp'
 const img3 = '/images2/dataTeam2/img3.webp'
@@ -15,181 +14,324 @@ const img11 = '/images2/dataTeam2/img11.webp'
 const img12 = '/images2/dataTeam2/img12.webp'
 const img13 = '/images2/dataTeam2/img13.webp'
 const img14 = '/images2/dataTeam2/img14.webp'
-const img15 = '/images2/dataTeam2/img15.webp'
-const img16 = '/images2/dataTeam2/img16.webp'
-const img17 = '/images2/dataTeam2/img17.webp'
 
 const dataTeam3 = [
     {
         id: 1,
         img: img1,
-        name: 'Shivam Karmakar',
-        position: 'Convenor',
+        name: 'Pragya Kumari Mishra',
+        position: 'Sampreshan (Outreach) Head',
         links: {
-            link1: null,
-            link2: null
+            link1: "pragyamishra0025@gmail.com",
           }
     },
     {
         id: 2,
         img: img2,
-        name: 'Sayak Sengupta',
-        position: 'Convenor & Pravidhi Head',
+        name: 'Anish Agarwal',
+        position: 'Convener & Sponsor Head',
         links: {
-            link1: 'https://www.linkedin.com/in/arghya-bandyopadhyay/',
-            link2: 'https://github.com/Arghya-Bandyopadhyay30'
+            link1: 'anishagarwal670@gmail.com',
           }
     },
     {
         id: 3,
         img: img3,
-        name: 'B R Gayathri',
-        position: 'Co-Convenor',
+        name: 'Chandika Sarkar',
+        position: 'Event coordinator',
         links: {
-            link1: null,
-            link2: null
+            link1: 'chandikasarkar5@gmail.com',
           }
     },
     {
         id: 4,
         img: img4,
-        name: 'Arpita Nag',
-        position: 'Treasurer',
+        name: 'Dhawal S Shah',
+        position: 'Treasurer and Prakaran Head',
         links: {
-            link1: null,
-            link2: null
+            link1: 'dhawalshah910@gmail.com',
           }
     },
     {
         id: 5,
         img: img5,
-        name: 'Harsh Tekriwal',
-        position: 'Sponsor Head',
+        name: 'Sunny Kumar',
+        position: 'Kalakriti Head',
         links: {
-            link1: null,
-            link2: null
+            link1: 'sundayroj@gmail.com',
           }
     },
     {
         id: 6,
         img: img6,
-        name: 'Taniya Chowdhury',
-        position: 'Promotion Head',
+        name: 'Tanu Priya',
+        position: 'Management (Decoration)',
         links: {
-            link1: null,
-            link2: null
+            link1: 'tanupd04@gmail.com',
           }
     },
     {
         id: 7,
         img: img7,
-        name: 'Shreya Paul',
+        name: 'Arnab Gupta',
         position: 'Kalakriti Head',
         links: {
-            link1: null,
-            link2: null
+            link1: 'arnabgupta983@gmail.com',
           }
     },
     {
         id: 8,
         img: img8,
-        name: 'Gurdil Singh',
-        position: 'Pratibimb Head',
+        name: 'Gurdil SRaj De Modak',
+        position: 'Ignite and Gyan Darpan Head',
         links: {
-            link1: null,
-            link2: null
+            link1: 'rajgobindadham@gmail.com',
           }
     },
     {
         id: 9,
         img: img9,
-        name: 'Arkadeep Hore',
-        position: 'Pratibimb Head',
+        name: 'Khushi Kumari',
+        position: 'ADMIN & OUTREACH',
         links: {
-            link1: null,
-            link2: null
+            link1: 'khushikumarinwd7870@gmail.com',
           }
     },
     {
         id: 10,
         img: img10,
-        name: 'Aman Kumar',
-        position: 'Event Co-Ordinator Head',
+        name: 'Priyanshu Priya',
+        position: 'Convenor & Social Media Head',
         links: {
-            link1: null,
-            link2: null
+            link1: 'hardestclimb586@gmail.com',
           }
     },
     {
         id: 11,
         img: img11,
-        name: 'Shivam Seal',
-        position: 'Event Co-Ordinator Head',
+        name: 'Rishav Raj',
+        position: 'Resource Head',
         links: {
-            link1: null,
-            link2: null
+            link1: 'crishav938@gmail.com',
           }
     },
     {
         id: 12,
         img: img12,
-        name: 'Abhiraj Banerjee',
-        position: 'Member Co-Ordinaor & Sangam Head',
+        name: 'Sumit Sharma',
+        position: 'Gyan Darpan',
         links: {
-            link1: null,
-            link2: null
+            link1: 'ss.sharma240303@gmail.com',
           }
     },
     {
         id: 13,
         img: img13,
-        name: 'Mohit Kumar',
-        position: 'Social Media Head',
+        name: 'Nikhil Parshuramka',
+        position: 'Administrative Head & Anveshan Head',
         links: {
-            link1: null,
-            link2: null
+            link1: 'nikhilparshuramka1802@gmail.com',
           }
     },
     {
         id: 14,
         img: img14,
-        name: 'Piyush Kumar',
-        position: 'Gyan Darpan Head',
+        name: 'Sanchari Roy',
+        position: 'Member coordinator',
         links: {
-            link1: null,
-            link2: null
+            link1: 'roymegha454@gmail.com',
           }
     },
-    {
-        id: 15,
-        img: img15,
-        name: 'Rupkatha Ray',
-        position: 'Anveshan Head',
-        links: {
-            link1: null,
-            link2: null
-          }
-    },
-    {
-        id: 16,
-        img: img16,
-        name: 'Aishee Dutta',
-        position: 'Outreach Head',
-        links: {
-            link1: null,
-            link2: null
-          }
-    },
-    {
-        id: 17,
-        img: img17,
-        name: 'Anurag Naskar',
-        position: 'Outreach Head',
-        links: {
-            link1: null,
-            link2: null
-          }
-    },
+    
+// const img1 = '/images2/dataTeam2/img1.webp'
+// const img2 = '/images2/dataTeam2/img2.webp'
+// const img3 = '/images2/dataTeam2/img3.webp'
+// const img4 = '/images2/dataTeam2/img4.webp'
+// const img5 = '/images2/dataTeam2/img5.webp'
+// const img6 = '/images2/dataTeam2/img6.webp'
+// const img7 = '/images2/dataTeam2/img7.webp'
+// const img8 = '/images2/dataTeam2/img8.webp'
+// const img9 = '/images2/dataTeam2/img9.webp'
+// const img10 = '/images2/dataTeam2/img10.webp'
+// const img11 = '/images2/dataTeam2/img11.webp'
+// const img12 = '/images2/dataTeam2/img12.webp'
+// const img13 = '/images2/dataTeam2/img13.webp'
+// const img14 = '/images2/dataTeam2/img14.webp'
+// const img15 = '/images2/dataTeam2/img15.webp'
+// const img16 = '/images2/dataTeam2/img16.webp'
+// const img17 = '/images2/dataTeam2/img17.webp'
+
+// const dataTeam3 = [
+//     {
+//         id: 1,
+//         img: img1,
+//         name: 'Shivam Karmakar',
+//         position: 'Convenor',
+//         links: {
+//             link1: null,
+//             link2: null
+//           }
+//     },
+//     {
+//         id: 2,
+//         img: img2,
+//         name: 'Sayak Sengupta',
+//         position: 'Convenor & Pravidhi Head',
+//         links: {
+//             link1: 'https://www.linkedin.com/in/arghya-bandyopadhyay/',
+//             link2: 'https://github.com/Arghya-Bandyopadhyay30'
+//           }
+//     },
+//     {
+//         id: 3,
+//         img: img3,
+//         name: 'B R Gayathri',
+//         position: 'Co-Convenor',
+//         links: {
+//             link1: null,
+//             link2: null
+//           }
+//     },
+//     {
+//         id: 4,
+//         img: img4,
+//         name: 'Arpita Nag',
+//         position: 'Treasurer',
+//         links: {
+//             link1: null,
+//             link2: null
+//           }
+//     },
+//     {
+//         id: 5,
+//         img: img5,
+//         name: 'Harsh Tekriwal',
+//         position: 'Sponsor Head',
+//         links: {
+//             link1: null,
+//             link2: null
+//           }
+//     },
+//     {
+//         id: 6,
+//         img: img6,
+//         name: 'Taniya Chowdhury',
+//         position: 'Promotion Head',
+//         links: {
+//             link1: null,
+//             link2: null
+//           }
+//     },
+//     {
+//         id: 7,
+//         img: img7,
+//         name: 'Shreya Paul',
+//         position: 'Kalakriti Head',
+//         links: {
+//             link1: null,
+//             link2: null
+//           }
+//     },
+//     {
+//         id: 8,
+//         img: img8,
+//         name: 'Gurdil Singh',
+//         position: 'Pratibimb Head',
+//         links: {
+//             link1: null,
+//             link2: null
+//           }
+//     },
+//     {
+//         id: 9,
+//         img: img9,
+//         name: 'Arkadeep Hore',
+//         position: 'Pratibimb Head',
+//         links: {
+//             link1: null,
+//             link2: null
+//           }
+//     },
+//     {
+//         id: 10,
+//         img: img10,
+//         name: 'Aman Kumar',
+//         position: 'Event Co-Ordinator Head',
+//         links: {
+//             link1: null,
+//             link2: null
+//           }
+//     },
+//     {
+//         id: 11,
+//         img: img11,
+//         name: 'Shivam Seal',
+//         position: 'Event Co-Ordinator Head',
+//         links: {
+//             link1: null,
+//             link2: null
+//           }
+//     },
+//     {
+//         id: 12,
+//         img: img12,
+//         name: 'Abhiraj Banerjee',
+//         position: 'Member Co-Ordinaor & Sangam Head',
+//         links: {
+//             link1: null,
+//             link2: null
+//           }
+//     },
+//     {
+//         id: 13,
+//         img: img13,
+//         name: 'Mohit Kumar',
+//         position: 'Social Media Head',
+//         links: {
+//             link1: null,
+//             link2: null
+//           }
+//     },
+//     {
+//         id: 14,
+//         img: img14,
+//         name: 'Piyush Kumar',
+//         position: 'Gyan Darpan Head',
+//         links: {
+//             link1: null,
+//             link2: null
+//           }
+//     },
+//     {
+//         id: 15,
+//         img: img15,
+//         name: 'Rupkatha Ray',
+//         position: 'Anveshan Head',
+//         links: {
+//             link1: null,
+//             link2: null
+//           }
+//     },
+//     {
+//         id: 16,
+//         img: img16,
+//         name: 'Aishee Dutta',
+//         position: 'Outreach Head',
+//         links: {
+//             link1: null,
+//             link2: null
+//           }
+//     },
+//     {
+//         id: 17,
+//         img: img17,
+//         name: 'Anurag Naskar',
+//         position: 'Outreach Head',
+//         links: {
+//             link1: null,
+//             link2: null
+//           }
+//     },
 
     // ///old
 

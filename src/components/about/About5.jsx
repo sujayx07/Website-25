@@ -43,7 +43,7 @@ function About5(props) {
         {
             subheading: 'Education Wing',
             heading: 'Gyan Darpan',
-            desc1: 'In the luminance of learning, brilliance finds its dawn.' ,
+            desc1: '"In the luminance of learning, brilliance finds its dawn."' ,
             desc2 :'Gyan Darpan, the torchbearer of enlightenment. Our emblem, an open tome ablaze with a radiant torch, symbolizes the perpetual illumination that education ignites in the hearts and minds of seekers.'
         }
     )
