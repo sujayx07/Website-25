@@ -43,6 +43,7 @@ jobs:
           -not -path "*/.github/*" \
           -not -path "*/dist/*" \
           -not -path "*/build/*" \
+          -not -path "*/android/*" \
           -not -path "*/public/images2/new/guest*" \
           -exec sh -c '
             for file do
@@ -71,6 +72,7 @@ jobs:
             **/dist/**
             **/build/**
             **/public/images2/new/guest**
+            **/android/**
 
       - name: Commit and Push Changes
         run: |
