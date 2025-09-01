@@ -60,11 +60,17 @@ jobs:
           ' sh {} +
 
       - name: Optimize WebP Images
-        uses: ludeeus/action-image-optimizer@master
+        uses: calibreapp/image-actions@main
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          webp_quality: "80-90"
-          compress_only: true
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          webpQuality: 80
+          compressOnly: true
+          ignorePaths: |
+            node_modules/**
+            .github/**
+            **/dist/**
+            **/build/**
+            **/public/images2/new/guest**
 
       - name: Commit and Push Changes
         run: |
