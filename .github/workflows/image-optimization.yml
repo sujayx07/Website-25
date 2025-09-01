@@ -1,7 +1,7 @@
 name: Image Optimization and Conversion
 
-# Author: [Ritaban Ghosh]
-# GitHub Profile: [https://github.com/ritaban06]
+# Author: Ritaban Ghosh
+# GitHub Profile: https://github.com/ritaban06
 
 on:
   push:
@@ -11,7 +11,6 @@ on:
     branches:
       - main
   workflow_dispatch:
-
 
 permissions:
   contents: write
@@ -24,10 +23,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          repository: ${{ github.repository }}
-          ref: ${{ github.head_ref }}
           fetch-depth: 0
-          
+
       - name: Cache apt packages
         uses: actions/cache@v3
         with:
@@ -63,16 +60,11 @@ jobs:
           ' sh {} +
 
       - name: Optimize WebP Images
-        uses: calibreapp/image-actions@main
+        uses: ludeeus/action-image-optimizer@master
         with:
-          webpQuality: 50
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
-          ignorePaths: |
-            node_modules/**
-            .github/**
-            **/dist/**
-            **/build/**
-            **/public/images2/new/guest**
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          webp_quality: "80-90"
+          compress_only: true
 
       - name: Commit and Push Changes
         run: |
@@ -86,6 +78,6 @@ jobs:
             exit 0
           fi
           
-          git commit -m "Convert images to WebP and remove original files"
-          git pull --rebase origin ${{ github.head_ref }}
-          git push origin HEAD:${{ github.head_ref }}
+          git commit -m "Optimize and convert images to WebP"
+          git pull --rebase origin ${{ github.head_ref || 'main' }}
+          git push origin HEAD:${{ github.head_ref || 'main' }}
