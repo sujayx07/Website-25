@@ -12,12 +12,12 @@ const menus = [
         // isNew: 'true',
     },
     
-    {
-        id: 9,
-        name: ' ',
-        links: '#',
-        className: 'menu-spacing', // Added spacing between Study Material and Wings
-    },
+    // {
+    //     id: 9,
+    //     name: ' ',
+    //     links: '#',
+    //     className: 'menu-spacing', // Added spacing between Study Material and Wings
+    // },
 
     {
         id: 2,
@@ -46,17 +46,7 @@ const menus = [
                 sub: 'Gallery',
                 links: '/gallery'
             },
-            {
-                id: 4,
-                sub: 'Resources',
-                links: '/Resources'
-            },
-            {
-                id: 5,
-                sub: 'For Aspirants',
-                links: '/Aspirants',
-                // isNew: true // Added property to indicate whether to show "NEW" blinker
-            },
+            
         ]
 
     },
