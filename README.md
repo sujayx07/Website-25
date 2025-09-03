@@ -1,16 +1,56 @@
-
-
-
 <div align="center">
   <br>
   <img height="220" src="public/images/newlogo.webp" alt="Samarth logo">
   <br>
-  <h2><a href="https://www.samarthtmsl.vercel.app/">Visit Here</a></h2>
+  <a href="https://www.samarthtmsl.vercel.app/">
+    <img src="https://img.shields.io/badge/Visit%20Live%20Site-blue?style=for-the-badge" alt="Visit Live Site" />
+  </a>
 </div>
 
 ---
 
-## 💫 Members of the Tech Team
+## 🚀 About Samarth
+
+Samarth is a modern, student-driven platform for study resources, events, and collaboration. Built for the MAKAUT community, it provides:
+
+- 📚 Unified study materials and previous year questions
+- 🎉 Event management and gallery
+- 👥 Team and member showcase
+- 📰 Latest notices and updates
+- 🧑‍💻 Tech team and contributors
+
+---
+
+## 🖼️ Screenshots
+
+<div align="center">
+  <img src="public/images/demo-screenshot.webp" alt="Samarth Homepage Screenshot" width="600" />
+</div>
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- Capacitor
+- SCSS
+- Node.js
+- GitHub Actions
+
+---
+
+## Social & Contact
+
+- [Facebook](https://www.facebook.com/SamarthTMSL)
+- [Twitter](https://twitter.com/Samarth_tmsl)
+- [LinkedIn](https://www.linkedin.com/company/samarthtmsl/mycompany/)
+- [YouTube](https://www.youtube.com/@samarth_tmsl_official)
+- Email: samarthtmsl@gmail.com
+
+---
+
+##  Members of the Tech Team
 
 ### 👨‍💻 Head
 <table><tr>
@@ -133,5 +173,7 @@
 <p align="center">
   <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs?username=SamarthTech&langs_count=12&show_icons=true&theme=highcontrast&locale=en&layout=compact" alt="Languages" />
 </p>
+
+---
 
 <p align="center"><i>Thank you for visiting!</i></p>
