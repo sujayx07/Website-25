@@ -45,12 +45,14 @@ function Study() {
       <PageTitle title="Study & Exam Resources" desc="Everything you need for your preparation journey" />
 
       {/* Notices Section */}
-      <div className="block-text center flexcenter">
+      {/* <div className="block-text center flexcenter">
         <h3 className="heading">Latest Notices</h3>
+        
         <div className="topic">
           <UpcomingExams data={notices} />
         </div>
-      </div>
+       
+      </div> */}
 
       {/* Unified Resources Section */}
       <div className="unified-resources">
