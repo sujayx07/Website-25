@@ -24,24 +24,9 @@ const img19 = '/images2/new/guest/guest_Aditya.jpg'
 const img20 = '/images2/new/guest/guest_Amit.jpg'
 const img21 = '/images2/new/guest/guest_Santosh.jpg'
 const img22 = '/images2/new/guest/guest_Shloka.jpg'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+const img23 = '/images2/new/guest/2.png'
+const img24 = '/images2/new/guest/Gajendra.png'
 const dataProject = [
-
     {
         id: 1,
         img: img5,
@@ -160,18 +145,16 @@ const dataProject = [
         img: img22,
         title: 'Shloka'
     },
-
-
-
-
-
-
-
-
-
-    
-    
-
+    {
+        id: 23,
+        img: img23,
+        title: 'Shridhar Rajendra Mankar'
+    },
+    {
+        id: 24,
+        img: img24,
+        title: 'Gajendra Purohit'
+    },
 ]
 
 export default dataProject;
