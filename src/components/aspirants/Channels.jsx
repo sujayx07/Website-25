@@ -17,17 +17,17 @@ Channels.propTypes = {
 function Channels(props) {
   const { data } = props;
 
-  // useEffect(() => {
-  //   const swiperAutoScroll = setInterval(() => {
-  //     if (swiperRef.current && swiperRef.current.swiper) {
-  //       swiperRef.current.swiper.slideNext();
-  //     }
-  //   }, 5000);
+  useEffect(() => {
+    const swiperAutoScroll = setInterval(() => {
+      if (swiperRef.current && swiperRef.current.swiper) {
+        swiperRef.current.swiper.slideNext();
+      }
+    }, 5000);
 
-  //   return () => {
-  //     clearInterval(swiperAutoScroll);
-  //   };
-  // }, []);
+    return () => {
+      clearInterval(swiperAutoScroll);
+    };
+  }, []);
 
   const swiperRef = React.useRef(null);
 
@@ -44,65 +44,65 @@ function control_next() {
 
   return (
     <div className="channel-carousel">
-      <div className='control' style={{margin:"0 25px 0 0",}}
-      onClick={control_prev}
-      ><FontAwesomeIcon className='arrow-icons' size='xl' icon={faAngleLeft} /></div>
+      <button
+        className="control control-left"
+        aria-label="Previous channel"
+        onClick={control_prev}
+      >
+        <FontAwesomeIcon className="arrow-icons" icon={faAngleLeft} />
+      </button>
+
       <section className="channel-section">
-        {/* <div className="shape right"></div> */}
-        <div className="container" id='ch-cont'>
+        <div className="container" id="ch-cont">
           <div className="row">
             <div className="col-12">
               <div className="swiper-container project-swiper-container">
                 <Swiper
                   ref={swiperRef}
                   className="project-swiper channel-swiper"
-                  spaceBetween={30}
+                  spaceBetween={28}
                   breakpoints={{
-                    0: {
-                      slidesPerView: 1,
-                    },
-                    768: {
-                      slidesPerView: 2,
-                    },
-                    991: {
-                      slidesPerView: 3,
-                    },
+                    0: { slidesPerView: 1 },
+                    600: { slidesPerView: 2 },
+                    992: { slidesPerView: 3 },
+                    1300: { slidesPerView: 4 },
                   }}
                   loop={true}
                   navigation={false}
-                  pagination={{
-                    clickable: true,
-                  }}
-                  autoplay={{
-                    delay: 4000,
-                    disableOnInteraction: false,
-                    pauseOnMouseEnter: true,
-                  }}
+                  pagination={{ clickable: true, el: '.channel-pagination' }}
+                  autoplay={{ delay: 4200, disableOnInteraction: false, pauseOnMouseEnter: true }}
                   slidesPerGroup={1}
-                  modules={[Navigation,Pagination,Autoplay]}
+                  modules={[Navigation, Pagination, Autoplay]}
                   {...gestureParams}
                 >
                   {data.map((idx) => (
                     <SwiperSlide key={idx.id}>
-                      <div className="swiper-slide">
-                          <a href={idx.url} target="_blank" rel="noopener noreferrer">
-                            <div className="channel-container">
-                              <img className="channel-box"  src={idx.img} alt="Channel Picture" />
-                              <div className="channel-name">
-                              {idx.title}
-                              </div>
-                            </div>
-                          </a>
-                      </div>
+                      <a href={idx.url} target="_blank" rel="noopener noreferrer" className="channel-link">
+                        <article className="channel-card" aria-label={idx.title}>
+                          <div className="avatar-wrap">
+                            <img className="channel-avatar" src={idx.img} alt={idx.title + ' avatar'} />
+                          </div>
+                          <div className="channel-name">{idx.title}</div>
+                        </article>
+                      </a>
                     </SwiperSlide>
                   ))}
                 </Swiper>
+
+                <div className="channel-pagination swiper-pagination" />
               </div>
             </div>
           </div>
         </div>
       </section>
-      <div className='control' style={{margin:"0 0 0 25px",}} onClick={control_next}><FontAwesomeIcon className='arrow-icons' size='xl' icon={faAngleRight} /></div>
+
+      <button
+        className="control control-right"
+        aria-label="Next channel"
+        onClick={control_next}
+      >
+        <FontAwesomeIcon className="arrow-icons" icon={faAngleRight} />
+      </button>
     </div>
   );
 }
