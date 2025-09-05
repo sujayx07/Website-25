@@ -66,9 +66,10 @@ const Header = () => {
                 <nav
                   id="main-nav"
                   className={`main-nav ${menuActive ? "active" : ""}`}
-                  style={{ display: 'flex', justifyContent: 'center' }}
+                  // style={{ display: 'flex', justifyContent: 'center' }}
                 >
-                  <ul id="menu-primary-menu" className="menu" style={{ display: 'flex', gap: '2.5rem', alignItems: 'center', justifyContent: 'center', padding: 0, margin: 0 }}>
+                  <ul id="menu-primary-menu" className="menu">
+                  {/* <ul id="menu-primary-menu" className="menu" style={{ display: 'flex', gap: '2.5rem', alignItems: 'center', justifyContent: 'center', padding: 0, margin: 0 }}> */}
                     {menus.map((data, idx) => (
                       <li
                         key={idx}

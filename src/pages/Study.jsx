@@ -45,24 +45,26 @@ function Study() {
       <PageTitle title="Study & Exam Resources" desc="Everything you need for your preparation journey" />
 
       {/* Notices Section */}
-      <div className="block-text center flexcenter">
+      {/* <div className="block-text center flexcenter">
         <h3 className="heading">Latest Notices</h3>
+        
         <div className="topic">
           <UpcomingExams data={notices} />
         </div>
-      </div>
+       
+      </div> */}
 
       {/* Unified Resources Section */}
       <div className="unified-resources">
         <div className="block-text center">
           <h3 className="heading">Exam Resources</h3>
           <div className="exam-tabs">
-            <ul className="breacrumb1" style={{ display: 'flex', flexDirection: 'row', gap: '2rem', justifyContent: 'center', padding: 0, margin: '1rem 0' }}>
-              <li className={`nav-itemexam ${selectedContent === 'content-1' ? 'active' : ''}`} style={{ listStyle: 'none', cursor: 'pointer', padding: '0.5rem 1rem', borderRadius: '6px' }} onClick={() => handleNavItemClick('content-1')}>GATE</li>
-              <li className={`nav-itemexam ${selectedContent === 'content-2' ? 'active' : ''}`} style={{ listStyle: 'none', cursor: 'pointer', padding: '0.5rem 1rem', borderRadius: '6px' }} onClick={() => handleNavItemClick('content-2')}>CAT</li>
-              <li className={`nav-itemexam ${selectedContent === 'content-3' ? 'active' : ''}`} style={{ listStyle: 'none', cursor: 'pointer', padding: '0.5rem 1rem', borderRadius: '6px' }} onClick={() => handleNavItemClick('content-3')}>UPSC-CSE</li>
-              <li className={`nav-itemexam ${selectedContent === 'content-4' ? 'active' : ''}`} style={{ listStyle: 'none', cursor: 'pointer', padding: '0.5rem 1rem', borderRadius: '6px' }} onClick={() => handleNavItemClick('content-4')}>UPSC-ESE</li>
-              <li className={`nav-itemexam ${selectedContent === 'content-5' ? 'active' : ''}`} style={{ listStyle: 'none', cursor: 'pointer', padding: '0.5rem 1rem', borderRadius: '6px' }} onClick={() => handleNavItemClick('content-5')}>SSC-CGL</li>
+            <ul className="breacrumb1">
+              <li className={`nav-itemexam ${selectedContent === 'content-1' ? 'active' : ''}`} onClick={() => handleNavItemClick('content-1')}>GATE</li>
+              <li className={`nav-itemexam ${selectedContent === 'content-2' ? 'active' : ''}`} onClick={() => handleNavItemClick('content-2')}>CAT</li>
+              <li className={`nav-itemexam ${selectedContent === 'content-3' ? 'active' : ''}`} onClick={() => handleNavItemClick('content-3')}>UPSC-CSE</li>
+              <li className={`nav-itemexam ${selectedContent === 'content-4' ? 'active' : ''}`} onClick={() => handleNavItemClick('content-4')}>UPSC-ESE</li>
+              <li className={`nav-itemexam ${selectedContent === 'content-5' ? 'active' : ''}`} onClick={() => handleNavItemClick('content-5')}>SSC-CGL</li>
             </ul>
             <div className="contentexam">
               {selectedContent === 'content-1' && <Gate data={dataGate} data2={dataGate2} />}

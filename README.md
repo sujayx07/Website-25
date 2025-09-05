@@ -68,13 +68,13 @@ Samarth is a modern, student-driven platform for study resources, events, and co
 <table><tr>
   <td align="center">
     <a href="https://github.com/anirban12x" target="_blank" rel="nofollow">
-      <img src="public/images/Anirban.jpg" width="105" alt="@Anirban" style="max-width:100%;"><br/>
+      <img src="public/images/Pravidhi_AB.webp" width="105" alt="@Anirban" style="max-width:100%;"><br/>
       Anirban Bandyopadhyay
     </a>
   </td>
   <td align="center">
     <a href="https://github.com/sujayx07" target="_blank" rel="nofollow">
-      <img src="public/images/Sujay.jpg" width="105" alt="@Sujay" style="max-width:100%;"><br/>
+      <img src="public/images/Pravidhi_SD.webp" width="105" alt="@Sujay" style="max-width:100%;"><br/>
       Sujay Dey
     </a>
   </td>
@@ -89,19 +89,19 @@ Samarth is a modern, student-driven platform for study resources, events, and co
     <tr>
       <td align="center">
         <a href="https://github.com/darkhorse404" target="_blank" rel="nofollow">
-          <img src="public/images/Priyobrata.jpg" width="105" alt="@Priyobrata" style="max-width:100%;"><br/>
+          <img src="public/images/Dev Team/Pravidhi_PM.webp" width="105" alt="@Priyobrata" style="max-width:100%;"><br/>
           Priyobrata Mondal
         </a>
       </td>
       <td align="center">
         <a href="https://github.com/koustavx08" target="_blank" rel="nofollow">
-          <img src="public/images/demo-profile.webp" width="85" alt="@Koustav Singh" style="max-width:100%;"><br/>
+          <img src="public/images/Dev Team/Pravidhi_KS.webp" width="85" alt="@Koustav Singh" style="max-width:100%;"><br/>
           Koustav Singh
         </a>
       </td>
       <td align="center">
         <a href="https://github.com/ritabanghosh" target="_blank" rel="nofollow">
-          <img src="public/images/demo-profile.webp" width="85" alt="@Ritaban Ghosh" style="max-width:100%;"><br/>
+          <img src="public/images/Dev Team/Pravidhi_RG.webp" width="85" alt="@Ritaban Ghosh" style="max-width:100%;"><br/>
           Ritaban Ghosh
         </a>
       </td>
@@ -115,7 +115,7 @@ Samarth is a modern, student-driven platform for study resources, events, and co
     <tr>
       <td align="center">
         <a href="https://github.com/anjaliray" target="_blank" rel="nofollow">
-          <img src="public/images/demo-profile.webp" width="85" alt="@Anjali Ray" style="max-width:100%;"><br/>
+          <img src="public/images/Dev Team/Pravidhi_AR.webp" width="85" alt="@Anjali Ray" style="max-width:100%;"><br/>
           Anjali Ray
         </a>
       </td>
@@ -127,7 +127,7 @@ Samarth is a modern, student-driven platform for study resources, events, and co
       </td>
       <td align="center">
         <a href="https://github.com/soumyojeet-samajdar" target="_blank" rel="nofollow">
-          <img src="public/images/demo-profile.webp" width="85" alt="@Soumyojeet Samajdar" style="max-width:100%;"><br/>
+          <img src="public/images/Dev Team/Pravidhi_SS.webp" width="85" alt="@Soumyojeet Samajdar" style="max-width:100%;"><br/>
           Soumyojeet Samajdar
         </a>
       </td>
@@ -147,7 +147,7 @@ Samarth is a modern, student-driven platform for study resources, events, and co
       </td>
       <td align="center">
         <a href="https://github.com/sampaddas" target="_blank" rel="nofollow">
-          <img src="public/images/demo-profile.webp" width="85" alt="@Sampad Das" style="max-width:100%;"><br/>
+          <img src="public/images/Dev Team/Pravidhi_SDas.webp" width="85" alt="@Sampad Das" style="max-width:100%;"><br/>
           Sampad Das
         </a>
       </td>
