@@ -57,15 +57,18 @@ const Header = () => {
                     alt="logo"
                   />
                 </Link>
-                <p className="logo-text">SAMARTH</p>
+                <Link to="/" className="logo-text" style={{ textDecoration: 'none' }}>
+                  SAMARTH
+                </Link>
               </div>
 
               <div className="header__right">
                 <nav
                   id="main-nav"
                   className={`main-nav ${menuActive ? "active" : ""}`}
+                  style={{ display: 'flex', justifyContent: 'center' }}
                 >
-                  <ul id="menu-primary-menu" className="menu">
+                  <ul id="menu-primary-menu" className="menu" style={{ display: 'flex', gap: '2.5rem', alignItems: 'center', justifyContent: 'center', padding: 0, margin: 0 }}>
                     {menus.map((data, idx) => (
                       <li
                         key={idx}
