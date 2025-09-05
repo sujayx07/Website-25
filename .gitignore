@@ -27,3 +27,4 @@ dist-ssr
 
 my-release-key.jks
 keystore.txt
+package-lock.json

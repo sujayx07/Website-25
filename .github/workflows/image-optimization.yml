@@ -1,9 +1,12 @@
 name: Image Optimization and Conversion
 
-# Author: [Ritaban Ghosh]
-# GitHub Profile: [https://github.com/ritaban06]
+# Author: Ritaban Ghosh
+# GitHub Profile: https://github.com/ritaban06
 
 on:
+  push:
+    branches:
+      - main
   pull_request:
     branches:
       - main
@@ -20,10 +23,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          repository: ${{ github.repository }}
-          ref: ${{ github.head_ref }}
           fetch-depth: 0
-          
+
       - name: Cache apt packages
         uses: actions/cache@v3
         with:
@@ -42,6 +43,7 @@ jobs:
           -not -path "*/.github/*" \
           -not -path "*/dist/*" \
           -not -path "*/build/*" \
+          -not -path "*/android/*" \
           -not -path "*/public/images2/new/guest*" \
           -exec sh -c '
             for file do
@@ -61,14 +63,16 @@ jobs:
       - name: Optimize WebP Images
         uses: calibreapp/image-actions@main
         with:
-          webpQuality: 50
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          webpQuality: 80
+          compressOnly: true
           ignorePaths: |
             node_modules/**
             .github/**
             **/dist/**
             **/build/**
             **/public/images2/new/guest**
+            **/android/**
 
       - name: Commit and Push Changes
         run: |
@@ -82,6 +86,6 @@ jobs:
             exit 0
           fi
           
-          git commit -m "Convert images to WebP and remove original files"
-          git pull --rebase origin ${{ github.head_ref }}
-          git push origin HEAD:${{ github.head_ref }}
+          git commit -m "Optimize and convert images to WebP"
+          git pull --rebase origin ${{ github.head_ref || 'main' }}
+          git push origin HEAD:${{ github.head_ref || 'main' }}
