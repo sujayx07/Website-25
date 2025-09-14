@@ -10,7 +10,8 @@ import img7 from '/images2/new/nexus.webp'
 import img8 from '/images2/new/config.webp'
 import img9 from '/images2/new/hack23__.webp'
 import img10 from '/images2/new/hack24.webp'
-
+import img11 from '/images2/new/SIT_card.webp'
+import img12 from '/images2/new/GCCD25_card.webp'
 
 
 
@@ -22,6 +23,24 @@ import Button from '../components/button/Button';
 function Activity(props) {
 
     const dataBlock = [
+        {
+            id: 12,
+            img : img12,
+            class:'img1',
+            subheading: 'GCCD KOLKATA 2025',
+            heading: 'Google Cloud Community Days Kolkata 2025',
+            desc1: '' ,
+            desc2 :'Team Samarth proudly announces that we are now the Official Community Partner of the biggest and most-awaited Tech conference, the GCCD Kolkata 2025 ',
+        },
+        {
+            id: 11,
+            img : img11,
+            class:'img1',
+            subheading: 'SIT KOLKATA 2025',
+            heading: 'Sap Inside Track Kolkata 2025',
+            desc1: '' ,
+            desc2 :'Team Samarth proudly announces that we are now the Official Community Partner at SAP Inside Track Kolkata 2025 ',
+        },
         {
             id: 10,
             img: img8,
@@ -144,7 +163,7 @@ function Activity(props) {
                                         <h3 className="heading">{e.heading}</h3>
                                         <p className="mb-17">{e.desc1}</p>
                                         <p className="mb-26">{e.desc2}</p>
-                                        <Button link='https://www.instagram.com/samarth_tmsl_official/?img_index=1' title='View Work' />
+                                        <Button link='https://www.instagram.com/samarth_tmsl/?hl=en' title='View Work' />
                                     </div>
                                 </div>
                             </div>
