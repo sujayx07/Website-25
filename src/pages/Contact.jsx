@@ -1,13 +1,47 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PageTitle from '../components/pagetitle/PageTitle';
 import img from '/images2/new/violetlogo.webp'
 
 function Contact(props) {
     const imageWidth = '380px';
     const imageHeight = '250px';
-    const handleSubmit = event => {
+    const [message, setMessage] = useState('');
+    const [messageType, setMessageType] = useState('');
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    
+    const handleSubmit = async (event) => {
         event.preventDefault();
-    } // prevent page refresh
+        setIsSubmitting(true);
+        setMessage('');
+        
+        try {
+            const formData = new FormData(event.target);
+            const response = await fetch('https://formsubmit.co/760d65d0eb069fd9a17265becef815f7', {
+                method: 'POST',
+                body: formData
+            });
+            
+            if (response.ok) {
+                setMessageType('success');
+                setMessage('Thank you! Your message has been sent successfully.');
+                event.target.reset(); // Clear the form
+                // Clear success message after 5 seconds
+                setTimeout(() => {
+                    setMessage('');
+                    setMessageType('');
+                }, 5000);
+            } else {
+                setMessageType('error');
+                setMessage('Something went wrong. Please try again later.');
+            }
+        } catch (error) {
+            console.error('Error:', error);
+            setMessageType('error');
+            setMessage('Something went wrong. Please try again later.');
+        } finally {
+            setIsSubmitting(false);
+        }
+    };
     return (
         <div className='wrapper'>
 
@@ -65,24 +99,24 @@ function Contact(props) {
                                     <div className="row">
                                         <div className="col">
                                             <label >Your Name *</label>
-                                        <input type="text" className="form-control" required/>
+                                        <input type="text" name="name" className="form-control" required/>
                                         </div>
                                         <div className="col">
                                             <label >Your Email *</label>
-                                        <input type="email" className="form-control" required/>
+                                        <input type="email" name="email" className="form-control" required/>
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col">
                                             <label >Your Phone No.</label>
-                                            <input type="text" className="form-control" />
+                                            <input type="text" name="phone" className="form-control" />
                                         </div>
                                         <div className="col">
                                             <label >Subject *</label>
-                                            <select className="form-control" required>
-                                                <option>Query</option>
-                                                <option>Sponsorship</option>
-                                                <option>Application</option>
+                                            <select name="subject" className="form-control" required>
+                                                <option value="Query">Query</option>
+                                                <option value="Sponsorship">Sponsorship</option>
+                                                <option value="Application">Application</option>
                                             </select>
                                         </div>
                                     </div>
@@ -94,12 +128,29 @@ function Contact(props) {
                                         
                                     </div>
                                     <div className="row">
-                                        <div className="col  d-flex align-items-center justify-content-center">
-                                            <button className="action-btn to"><span>Send Now</span></button>
+                                        <div className="col d-flex align-items-center justify-content-center">
+                                            <button className="action-btn to" disabled={isSubmitting}>
+                                                <span>{isSubmitting ? 'Submitting...' : 'Send Now'}</span>
+                                            </button>
                                         </div>
-            
                                     </div>
-                                  
+                                    
+                                    {message && (
+                                        <div className="row mt-3">
+                                            <div className="col">
+                                                <div className={`message ${messageType}`} style={{
+                                                    padding: '10px',
+                                                    borderRadius: '4px',
+                                                    textAlign: 'center',
+                                                    backgroundColor: messageType === 'success' ? '#d4edda' : '#f8d7da',
+                                                    color: messageType === 'success' ? '#155724' : '#721c24',
+                                                    border: `1px solid ${messageType === 'success' ? '#c3e6cb' : '#f5c6cb'}`
+                                                }}>
+                                                    {message}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    )}
                                 </form>
                                 
                             </div>
