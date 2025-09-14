@@ -27,18 +27,18 @@ function Activity(props) {
             img: img8,
             class: 'img1',
             subheading: 'CONFIG 2025 WATCH PARTY – KOLKATA',
-            heading: 'Config 2025 Watch Party – Kolkata',
-            desc1: 'Joined hands with Figma Config 2025 Watch Party to celebrate design, creativity, and collaboration 🎨✨',
-            desc2: 'Samarth TMSL is proud to be the Official Community Partner for the Config 2025 Watch Party – Kolkata! A night full of design inspo, conversations, and collabs, held on May 9, 2025 at Now Purchase, Kariwala Tower, Sector V.'
+            heading: 'Config 2025 Watch Party – Kolkata!',
+            desc1: 'Design. Collaboration. Inspiration. Config 2025 Watch Party brought it all together for the creative community ✨',
+            desc2: 'Team Samarth is thrilled to announce that we are now the Official Community Partner for Config 2025 Watch Party – Kolkata 🎉. A night filled with design ideas, conversations, and limitless creativity.'
         },
         {
             id: 9,
             img: img7,
             class: 'img1',
-            subheading: 'DEVNEXUS HACKATHON 2024',
-            heading: 'DevNexus Hackathon 2024',
-            desc1: 'Collaborated with Team DevNexus to empower student hackers and innovators 🚀👨‍💻',
-            desc2: 'Samarth TMSL is now the Official Community Partner of Team DevNexus! Thrilled to join hands for an exciting hackathon journey full of opportunities, learning, and innovation.'
+            subheading: 'DEVNEXUS 2024',
+            heading: 'DevNexus HACKATHON 2024',
+            desc1: 'Team Samarth is delighted to announce our role as the Official Community Partner of DevNexus Hackathon 2024 🤝. Looking forward to empowering student hackers and driving innovation together!',
+            desc2: ''
         },
         {
             id: 8,
@@ -46,8 +46,8 @@ function Activity(props) {
             class: 'img1',
             subheading: 'DROIDFEST 2024',
             heading: 'DroidFest 2024',
-            desc1: 'Partnered with DroidFest \'24 to bridge students with industry leaders and tech innovators 🤝✨',
-            desc2: 'Samarth TMSL is proud to be an Official Partner of DroidFest \'24! A festival packed with cutting-edge sessions, hands-on workshops, and networking with top developers. Don’t miss out – grab your exclusive tickets with code SAMARTH20 at https://konfhub.com/droid-fest-24 🚀'
+            desc1: 'Celebration of Android, tech, and innovation with the brightest minds in the industry💡',
+            desc2: 'Team Samarth is proud to partner with DroidFest 2024 🎉. From cutting-edge sessions to exclusive student offers, this collaboration unlocked endless opportunities for learning and networking!'
         },
         {
             id: 7,
@@ -57,7 +57,7 @@ function Activity(props) {
             heading: 'Google Cloud Community Days Kolkata 2024',
             desc1: 'Collaborated with GDG Cloud Kolkata to Celebrate Tech like never before ✨',
             desc2: 'Team Samarth proudly announces that we are now the Official Community Partner of the biggest and most-awaited Tech conference, the GCCD Kolkata 2024 !',
-        },   
+        },
         {
             id: 6,
             img: img10,
