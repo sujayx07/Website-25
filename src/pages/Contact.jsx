@@ -16,7 +16,7 @@ function Contact(props) {
         
         try {
             const formData = new FormData(event.target);
-            const response = await fetch('https://formsubmit.co/pravidhi.samarth@gmail.com', {
+            const response = await fetch('https://formsubmit.co/c282433c57305b872c32c0e0ddc1dfbd', {
                 method: 'POST',
                 body: formData
             });
