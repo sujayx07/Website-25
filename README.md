@@ -2,7 +2,7 @@
   <br>
   <img height="220" src="public/images/newlogo.webp" alt="Samarth logo">
   <br>
-  <a href="https://www.samarthtmsl.vercel.app/">
+  <a href="https://www.samarthtmsl.in/">
     <img src="https://img.shields.io/badge/Visit%20Live%20Site-blue?style=for-the-badge" alt="Visit Live Site" />
   </a>
 </div>
