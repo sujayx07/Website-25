@@ -22,6 +22,11 @@ const img17 = '/images2/dataTeam3/img17.webp'
 const img18 = '/images2/dataTeam3/img18.webp'
 const img19 = '/images2/dataTeam3/img19.webp'
 const img20 = '/images2/dataTeam3/img20.webp'
+const img21 = '/images2/dataTeam3/img21.webp'
+const img22 = '/images2/dataTeam3/img22.webp'
+const img23 = '/images2/dataTeam3/img23.webp'
+const img24 = '/images2/dataTeam3/img24.webp'
+const img25 = '/images2/dataTeam3/img25.webp'
 
 
 
@@ -31,8 +36,8 @@ const dataTeam3 = [
     {
         id: 1,
         img: img1,
-        name: 'Anish Agarwal',
-        position: 'Event Co-Ordinator & Sponsor Co-Head',
+        name: 'Sujay Dey',
+        position: 'Pravidhi Co-Head',
         links: {
             link1: null,
             link2: null
@@ -41,8 +46,8 @@ const dataTeam3 = [
     {
       id: 2,
       img: img2,
-      name: 'Mridul Srivastava',
-      position: 'Event Co-Ordinator Co-Head',
+      name: 'Oindrila Nandy',
+      position: 'Promotion Co-Head',
       links: {
           link1: null,
           link2: null
@@ -51,8 +56,8 @@ const dataTeam3 = [
   {
     id: 3,
     img: img3,
-    name: 'Ankit Kr. Gupta',
-    position: 'Promotion Co-Head',
+    name: 'Anirban Bandyopadhyay',
+    position: 'Pravidhi Co-Head',
     links: {
         link1: null,
         link2: null
@@ -61,8 +66,8 @@ const dataTeam3 = [
 {
   id: 4,
   img: img4,
-  name: 'Sushmita Ghosh',
-  position: 'Sponsor Co-Head',
+  name: 'Debasmita Mondal',
+  position: 'Admin Co-Head',
   links: {
       link1: null,
       link2: null
@@ -71,8 +76,8 @@ const dataTeam3 = [
 {
   id: 5,
   img: img5,
-  name: 'Priyanshu Priya',
-  position: 'Social Media & Member Co-Ordinator Co-Head',
+  name: 'Suman Roy',
+  position: 'Pratibimb Co-Head',
   links: {
       link1: null,
       link2: null
@@ -81,8 +86,8 @@ const dataTeam3 = [
 {
   id: 6,
   img: img6,
-  name: 'Chandika Sarkar',
-  position: 'Member Co-Ordinator Co-Head',
+  name: 'Rahul Kumar Ram',
+  position: 'Resource Co-Head',
   links: {
       link1: null,
       link2: null
@@ -91,8 +96,8 @@ const dataTeam3 = [
 {
   id: 7,
   img: img7,
-  name: 'Soujanya Khan',
-  position: 'Pratibimb Co-Head',
+  name: 'Devpriya Mahato',
+  position: 'Resource Co-Head',
   links: {
       link1: null,
       link2: null
@@ -101,8 +106,8 @@ const dataTeam3 = [
 {
   id: 8,
   img: img8,
-  name: 'Dhawal S Shah',
-  position: 'Prakaran Co-Head',
+  name: 'Ayushi Divayani',
+  position: 'Member Co-ordinator Co-Head',
   links: {
       link1: null,
       link2: null
@@ -111,8 +116,8 @@ const dataTeam3 = [
 {
   id: 9,
   img: img9,
-  name: 'Sunny Kumar',
-  position: 'Kalakriti Co-Head',
+  name: 'Anish Seth',
+  position: 'Sampreshan Co-Head',
   links: {
       link1: null,
       link2: null
@@ -121,8 +126,8 @@ const dataTeam3 = [
 {
   id: 10,
   img: img10,
-  name: 'Arnab Gupta',
-  position: 'Kalakriti Co-Head',
+  name: 'Arka Saha ',
+  position: 'Social media and Member Co-ordinator Co-Head',
   links: {
       link1: null,
       link2: null
@@ -131,8 +136,8 @@ const dataTeam3 = [
 {
   id: 11,
   img: img11,
-  name: 'Srijita Jana',
-  position: 'Sangam Co-Head',
+  name: 'Harsh Kumar',
+  position: 'Ignite & Decoration Co-Head',
   links: {
       link1: null,
       link2: null
@@ -141,8 +146,8 @@ const dataTeam3 = [
 {
   id: 12,
   img: img12,
-  name: 'Sanchari Roy',
-  position: 'Sangam Co-Head',
+  name: 'Aakash Suman',
+  position: 'Event Co-Ordinator Co-Head',
   links: {
       link1: null,
       link2: null
@@ -151,8 +156,8 @@ const dataTeam3 = [
 {
   id: 13,
   img: img13,
-  name: 'Khushi Kumari',
-  position: 'Outreach Co-Head',
+  name: 'Aadarsh Ranjan',
+  position: 'Management Co-Head',
   links: {
       link1: null,
       link2: null
@@ -161,8 +166,8 @@ const dataTeam3 = [
 {
   id: 14,
   img: img14,
-  name: 'Sharanya Roy',
-  position: 'Outreach Co-Head',
+  name: 'Rajanya Ray',
+  position: 'Prakaran Co-Head',
   links: {
       link1: null,
       link2: null
@@ -171,8 +176,8 @@ const dataTeam3 = [
 {
   id: 15,
   img: img15,
-  name: 'Nikhil Parshuramka',
-  position: 'Anveshan Co-Head',
+  name: 'Som Ganguly',
+  position: 'Gyan Darpan Co-Head',
   links: {
       link1: null,
       link2: null
@@ -181,8 +186,8 @@ const dataTeam3 = [
 {
   id: 16,
   img: img16,
-  name: 'Satyaki Dey',
-  position: 'Pravidhi Co-Head',
+  name: 'Rajarshi Chakraborty',
+  position: 'Ignite Co-Head',
   links: {
       link1: null,
       link2: null
@@ -191,8 +196,8 @@ const dataTeam3 = [
 {
   id: 17,
   img: img17,
-  name: 'Ravi Ranjan Kumar',
-  position: 'Pravidhi Co-Head',
+  name: 'Abhinandan Rakshit',
+  position: 'Pratibimb Co-Head',
   links: {
       link1: null,
       link2: null
@@ -201,8 +206,8 @@ const dataTeam3 = [
 {
   id: 18,
   img: img18,
-  name: 'Raj De Modak',
-  position: 'Gyan Darpan Co-Head',
+  name: 'Satyajit Kumar Khawas',
+  position: 'Promotion Co-Head',
   links: {
       link1: null,
       link2: null
@@ -211,8 +216,8 @@ const dataTeam3 = [
 {
   id: 19,
   img: img19,
-  name: 'Tanu Priya',
-  position: 'Decoration Co-Head',
+  name: 'Kasturi Chakraborty',
+  position: 'Gyan Darpan Co-Head',
   links: {
       link1: null,
       link2: null
@@ -221,13 +226,64 @@ const dataTeam3 = [
 {
   id: 20,
   img: img20,
-  name: 'Kriti Raj',
-  position: 'Decoration Co-Head',
+  name: 'Jeshika Si',
+  position: 'Kalakriti Co-Head',
   links: {
       link1: null,
       link2: null
     }
 },
+{
+  id: 21,
+  img: img21,
+  name: 'Yoshita Rama',
+  position: 'Sponsor Co-Head',
+  links: {
+      link1: null,
+      link2: null
+    }
+},
+{
+  id: 22,
+  img: img22,
+  name: 'Piyush Kumar',
+  position: 'Kalakriti Co-Head',
+  links: {
+      link1: null,
+      link2: null
+    }
+},
+{
+  id: 23,
+  img: img23,
+  name: 'Srijita Saha',
+  position: 'Outreach Co-Head',
+  links: {
+      link1: null,
+      link2: null
+    }
+},
+{
+  id: 24,
+  img: img24,
+  name: 'Arnab Mandal',
+  position: 'Anveshan Co-Head',
+  links: {
+      link1: null,
+      link2: null
+    }
+},
+{
+  id: 25,
+  img: img25,
+  name: 'Shreya Choudhary',
+  position: 'Sponsor Co-Head',
+  links: {
+      link1: null,
+      link2: null
+    }
+},
+   
     
         
     
