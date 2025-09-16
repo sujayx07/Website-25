@@ -34,15 +34,15 @@ const img25 = '/images2/dataTeam3/img25.webp'
 const dataTeam3 = [
 
     {
-        id: 3,
-        img: img1,
-        name: 'Sujay Dey',
-        position: 'Pravidhi Co-Head',
-        links: {
-            link1: null,
-            link2: null
-          }
-    },
+  id: 1,
+  img: img4,
+  name: 'Debasmita Mondal',
+  position: 'Admin Co-Head',
+  links: {
+      link1: null,
+      link2: null
+    }
+},
     {
       id: 2,
       img: img2,
@@ -53,6 +53,16 @@ const dataTeam3 = [
           link2: null
         }
   },
+    {
+        id: 3,
+        img: img1,
+        name: 'Sujay Dey',
+        position: 'Pravidhi Co-Head',
+        links: {
+            link1: null,
+            link2: null
+          }
+    },
   {
     id: 4,
     img: img3,
@@ -62,16 +72,6 @@ const dataTeam3 = [
         link1: null,
         link2: null
       }
-},
-{
-  id: 1,
-  img: img4,
-  name: 'Debasmita Mondal',
-  position: 'Admin Co-Head',
-  links: {
-      link1: null,
-      link2: null
-    }
 },
 {
   id: 5,
