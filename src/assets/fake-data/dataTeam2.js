@@ -14,7 +14,7 @@ const img11 = "/images2/dataTeam2/img11.webp";
 const img12 = "/images2/dataTeam2/img12.webp";
 const img13 = "/images2/dataTeam2/img13.webp";
 const img14 = "/images2/dataTeam2/img14.webp";
-const img15 = "/images2/dataTeam2/img15.jpg";
+const img15 = "/images2/dataTeam2/img15.webp";
 
 const dataTeam3 = [
   {
