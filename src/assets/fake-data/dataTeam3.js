@@ -2,7 +2,7 @@
 
 
 
-const img1 = '/images2/dataTeam3/img1.webp'
+const img1 = '/images2/dataTeam3/img1.jpg'
 const img2 = '/images2/dataTeam3/img2.webp'
 const img3 = '/images2/dataTeam3/img3.webp'
 const img4 = '/images2/dataTeam3/img4.webp'
