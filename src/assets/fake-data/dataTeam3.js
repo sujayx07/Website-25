@@ -34,7 +34,7 @@ const img25 = '/images2/dataTeam3/img25.webp'
 const dataTeam3 = [
 
     {
-        id: 4,
+        id: 3,
         img: img1,
         name: 'Sujay Dey',
         position: 'Pravidhi Co-Head',
@@ -54,7 +54,7 @@ const dataTeam3 = [
         }
   },
   {
-    id: 3,
+    id: 4,
     img: img3,
     name: 'Anirban Bandyopadhyay',
     position: 'Pravidhi Co-Head',
